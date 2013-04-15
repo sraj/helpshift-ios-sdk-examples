@@ -17,6 +17,8 @@ Readme for Push Notification iOS App
 
 	2. Click on "Build Settings" and select valid APN enabled certificate in ***Code Signing***
 
-
 4. Refer ***application:didRegisterForRemoteNotificationsWithDeviceToken:*** and ***application:didReceiveRemoteNotification:*** in HSDAppDelegate.m on integrating 
    Helpshift push notification service, for more information [refer doc](http://www.helpshift.com/docs/howto/ios/v2.x/#hs-push-notif)
+
+
+![Push Notification screenshot](/Screenshot.png)

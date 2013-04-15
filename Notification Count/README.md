@@ -13,3 +13,6 @@ Readme for Notification Count iOS App
 
 3. Refer ***notificationCountAsyncReceived:*** delegate method in HSDViewController.m to get notification counts asynchronously, 
    for more information [refer doc](http://www.helpshift.com/docs/howto/ios/v2.x/#notif-polling)
+
+
+![Notification Count screenshot](/Screenshot.png)
