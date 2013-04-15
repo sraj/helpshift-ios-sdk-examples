@@ -13,7 +13,8 @@ Readme for Integrating Urban Airship for Helpshift Notifications
    ```
    	[Helpshift installForAppID:@"<YOUR_APP_ID>"  domainName:@"<YOUR_COMPANY>.helpshift.com" apiKey:@"<YOUR_API_KEY>"];
    ```
-   inside ***application:didFinishLaunchingWithOptions:*** method (ideally at the top) for more information [refer doc](http://www.helpshift.com/docs/howto/ios/v2.x/#authentication)
+   inside ***application:didFinishLaunchingWithOptions:*** method (ideally at the top) 
+   for more information [refer doc](http://www.helpshift.com/docs/howto/ios/v2.x/#authentication)
 
 5. Refer ***application:didRegisterForRemoteNotificationsWithDeviceToken:*** and ***application:didReceiveRemoteNotification:*** in HSDAppDelegate.m on integrating 
    Helpshift push notification service, for more information [refer doc](http://www.helpshift.com/docs/howto/ios/v2.x/#urban-airship)

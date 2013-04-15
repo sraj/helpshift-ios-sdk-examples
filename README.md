@@ -1,9 +1,7 @@
 Helpshift iOS SDK examples
 =========================
 
-Examples for integrating the Helpshift iOS SDK.
-
-* Used stable HelpshiftSDK-2.1.0 for examples
+Examples for integrating the Helpshift iOS SDK using HelpshiftSDK v2.1.0
 
 * ***Full Support*** example app helps to show the support screens in your app
 

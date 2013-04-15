@@ -8,6 +8,8 @@ Readme for Notification Count iOS App
    ```
    	[Helpshift installForAppID:@"<YOUR_APP_ID>"  domainName:@"<YOUR_COMPANY>.helpshift.com" apiKey:@"<YOUR_API_KEY>"];
    ```
-   inside ***application:didFinishLaunchingWithOptions:*** method (ideally at the top) for more information [refer doc](http://www.helpshift.com/docs/howto/ios/v2.x/#authentication)
+   inside ***application:didFinishLaunchingWithOptions:*** method (ideally at the top) 
+   for more information [refer doc](http://www.helpshift.com/docs/howto/ios/v2.x/#authentication)
 
-3. Refer ***notificationCountAsyncReceived:*** delegate method in HSDViewController.m to get notification counts asynchronously for more information [refer doc](http://www.	helpshift.com/docs/howto/ios/v2.x/#notif-polling)
+3. Refer ***notificationCountAsyncReceived:*** delegate method in HSDViewController.m to get notification counts asynchronously, 
+   for more information [refer doc](http://www.helpshift.com/docs/howto/ios/v2.x/#notif-polling)
