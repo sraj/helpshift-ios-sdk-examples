@@ -13,3 +13,6 @@ Readme for Full Support iOS App
 
 3. Refer ***btnSupportClick:*** method in HSDViewController.m to show support screen & decomposed support screen, 
    for more information [refer doc](http://www.helpshift.com/docs/howto/ios/v2.x/#decomposition)
+
+
+![Full Support screenshot](https://github.com/sraj/helpshift-ios-sdk-examples/blob/master/Full%20Support/Screenshot.png)
