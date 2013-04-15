@@ -36,6 +36,8 @@
     [UAirship takeOff:takeOffOptions];
     
     // Set the icon badge to zero on startup (optional)
+    [UIApplication sharedApplication].applicationIconBadgeNumber = 0;
+    [[UAPush shared] setAutobadgeEnabled:YES];
     [[UAPush shared] resetBadge];
     
     // Register for remote notfications with the UA Library. This call is required.
@@ -98,7 +100,8 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
-    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    [[UAPush shared] setBadgeNumber:1];//set to 1
+    [[UAPush shared] resetBadge];//zero badge
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application

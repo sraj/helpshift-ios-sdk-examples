@@ -24,3 +24,7 @@ Readme for Integrating Urban Airship for Helpshift Notifications
 	1. Click on ***UA Notification*** Project, to change bundle Identifier
 
 	2. Click on "Build Settings" and select valid APN enabled certificate in ***Code Signing***
+
+
+
+![UA Notification screenshot](/Screenshot.png)		![UA Notification screenshot](/Screenshot2.png)
