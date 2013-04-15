@@ -1,0 +1,5 @@
+{
+    "APP_STORE_OR_AD_HOC_BUILD" = NO;
+    "DEVELOPMENT_APP_KEY" = "Your development app key";
+    "DEVELOPMENT_APP_SECRET" = "Your development app secret";
+}
