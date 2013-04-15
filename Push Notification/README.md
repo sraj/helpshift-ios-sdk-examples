@@ -21,4 +21,4 @@ Readme for Push Notification iOS App
    Helpshift push notification service, for more information [refer doc](http://www.helpshift.com/docs/howto/ios/v2.x/#hs-push-notif)
 
 
-![Push Notification screenshot](/Screenshot.png)
+![Push Notification screenshot](/Screenshot.png)		![Push Notification screenshot](/Screenshot2.png)
