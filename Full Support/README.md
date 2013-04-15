@@ -10,4 +10,4 @@ Readme for Full Support iOS App
    ```
    inside ***application:didFinishLaunchingWithOptions:*** method (ideally at the top) for more information [refer doc](http://www.helpshift.com/docs/howto/ios/v2.x/#authentication)
 
- 3. Refer ***btnSupportClick:**** method in HSDViewController.m on showing support screen & decomposed support screen for more information [refer doc](http://www.helpshift.	com/docs/howto/ios/v2.x/#decomposition)
+3. Refer ***btnSupportClick:*** method in HSDViewController.m to show support screen & decomposed support screen, for more information [refer doc](http://www.helpshift.com/docs/howto/ios/v2.x/#decomposition)
