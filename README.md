@@ -14,5 +14,5 @@ Examples for integrating the Helpshift iOS SDK.
 * ***UA Noticitation*** example app helps to integrate Urban Airship for Helpshift notifications in your app
 
 
-Note: HelpshiftSDK-2.1.0 and Share Resources are required for Example apps to run
+Note: HelpshiftSDK-2.1.0 and Shared Resources are required for Example apps to run
 
