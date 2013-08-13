@@ -30,7 +30,7 @@
     //Register for APN
     [[UIApplication sharedApplication] registerForRemoteNotificationTypes: (UIRemoteNotificationTypeAlert | UIRemoteNotificationTypeBadge | UIRemoteNotificationTypeSound)];
     
-    if (launchOptions != nil) //Handle PushNotification when app is opened
+    if (launchOptions != nil) //handle when app is not in background and opened for push notification.
     {
         NSDictionary* userInfo = [launchOptions objectForKey:UIApplicationLaunchOptionsRemoteNotificationKey];
         if (userInfo != nil && [[userInfo objectForKey:@"origin"] isEqualToString:@"helpshift"])
