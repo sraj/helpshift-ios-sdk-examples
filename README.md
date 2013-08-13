@@ -1,7 +1,7 @@
 Helpshift iOS SDK examples
 =========================
 
-Examples for integrating the Helpshift iOS SDK using HelpshiftSDK v2.2.0
+Examples for integrating the Helpshift iOS SDK using HelpshiftSDK v2.5.0
 
 * ***HelpshiftSupportApp*** example app helps to show the support screens in your app
 
@@ -12,5 +12,5 @@ Examples for integrating the Helpshift iOS SDK using HelpshiftSDK v2.2.0
 * ***UrbanAirshipApp*** example app helps to integrate Urban Airship for Helpshift notifications in your app
 
 
-Note: HelpshiftSDK-2.2.0 and Shared Resources are required for example apps to run
+Note: /helpshift-ios-sdk and /Shared Resources are required for example apps to run
 
