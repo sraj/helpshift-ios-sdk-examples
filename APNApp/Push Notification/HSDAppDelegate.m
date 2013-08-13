@@ -30,6 +30,15 @@
     //Register for APN
     [[UIApplication sharedApplication] registerForRemoteNotificationTypes: (UIRemoteNotificationTypeAlert | UIRemoteNotificationTypeBadge | UIRemoteNotificationTypeSound)];
     
+    if (launchOptions != nil) //Handle PushNotification when app is opened
+    {
+        NSDictionary* userInfo = [launchOptions objectForKey:UIApplicationLaunchOptionsRemoteNotificationKey];
+        if (userInfo != nil && [[userInfo objectForKey:@"origin"] isEqualToString:@"helpshift"])
+        {
+            [[Helpshift sharedInstance] handleNotification:userInfo withController:self.window.rootViewController];
+        }
+    }
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

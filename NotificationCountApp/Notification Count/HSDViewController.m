@@ -23,20 +23,17 @@
 - (void) viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     [[Helpshift sharedInstance] setDelegate:self];
-    [[Helpshift sharedInstance] startNotificationCountPolling:5];
+    [[Helpshift sharedInstance] notificationCountAsync:TRUE];
     dispatch_async(dispatch_get_main_queue(), ^{
         [lblNotification setText:@"Notification Started..."];
     });
-    
 }
 
 - (void) viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
-    [[Helpshift sharedInstance] stopNotificationCountPolling];
     dispatch_async(dispatch_get_main_queue(), ^{
         [lblNotification setText:@"Notification Stopped..."];
     });
-
 }
 
 - (void) notificationCountAsyncReceived:(NSInteger)count {

@@ -7,29 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B466632B171FC9BB00CE9FA9 /* HelpshiftLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B466630E171FC9BB00CE9FA9 /* HelpshiftLocalizable.strings */; };
-		B466632C171FC9BB00CE9FA9 /* HS-background-tile.png in Resources */ = {isa = PBXBuildFile; fileRef = B4666313171FC9BB00CE9FA9 /* HS-background-tile.png */; };
-		B466632D171FC9BB00CE9FA9 /* HS-background-tile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4666314171FC9BB00CE9FA9 /* HS-background-tile@2x.png */; };
-		B466632E171FC9BB00CE9FA9 /* HS-no-connection.png in Resources */ = {isa = PBXBuildFile; fileRef = B4666315171FC9BB00CE9FA9 /* HS-no-connection.png */; };
-		B466632F171FC9BB00CE9FA9 /* HS-no-connection@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4666316171FC9BB00CE9FA9 /* HS-no-connection@2x.png */; };
-		B4666330171FC9BB00CE9FA9 /* HS-powered-by-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B4666317171FC9BB00CE9FA9 /* HS-powered-by-logo.png */; };
-		B4666331171FC9BB00CE9FA9 /* HS-powered-by-logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4666318171FC9BB00CE9FA9 /* HS-powered-by-logo@2x.png */; };
-		B4666332171FC9BB00CE9FA9 /* HS-screenshot-error.png in Resources */ = {isa = PBXBuildFile; fileRef = B4666319171FC9BB00CE9FA9 /* HS-screenshot-error.png */; };
-		B4666333171FC9BB00CE9FA9 /* HS-screenshot-error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B466631A171FC9BB00CE9FA9 /* HS-screenshot-error@2x.png */; };
-		B4666334171FC9BB00CE9FA9 /* HS-section-header.png in Resources */ = {isa = PBXBuildFile; fileRef = B466631B171FC9BB00CE9FA9 /* HS-section-header.png */; };
-		B4666335171FC9BB00CE9FA9 /* HS-section-header@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B466631C171FC9BB00CE9FA9 /* HS-section-header@2x.png */; };
-		B4666336171FC9BB00CE9FA9 /* HSChatBubbleBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = B466631D171FC9BB00CE9FA9 /* HSChatBubbleBlue.png */; };
-		B4666337171FC9BB00CE9FA9 /* HSChatBubbleBlue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B466631E171FC9BB00CE9FA9 /* HSChatBubbleBlue@2x.png */; };
-		B4666338171FC9BB00CE9FA9 /* HSChatBubbleWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = B466631F171FC9BB00CE9FA9 /* HSChatBubbleWhite.png */; };
-		B4666339171FC9BB00CE9FA9 /* HSChatBubbleWhite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4666320171FC9BB00CE9FA9 /* HSChatBubbleWhite@2x.png */; };
-		B466633A171FC9BB00CE9FA9 /* HSConfirmBox.png in Resources */ = {isa = PBXBuildFile; fileRef = B4666321171FC9BB00CE9FA9 /* HSConfirmBox.png */; };
-		B466633B171FC9BB00CE9FA9 /* HSConfirmBox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4666322171FC9BB00CE9FA9 /* HSConfirmBox@2x.png */; };
-		B466633C171FC9BB00CE9FA9 /* HSTutorial.png in Resources */ = {isa = PBXBuildFile; fileRef = B4666323171FC9BB00CE9FA9 /* HSTutorial.png */; };
-		B466633D171FC9BB00CE9FA9 /* HSTutorial@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4666324171FC9BB00CE9FA9 /* HSTutorial@2x.png */; };
-		B466633E171FC9BB00CE9FA9 /* HSTutorialiPad.png in Resources */ = {isa = PBXBuildFile; fileRef = B4666325171FC9BB00CE9FA9 /* HSTutorialiPad.png */; };
-		B466633F171FC9BB00CE9FA9 /* HSTutorialiPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4666326171FC9BB00CE9FA9 /* HSTutorialiPad@2x.png */; };
-		B4666340171FC9BB00CE9FA9 /* libHelpshift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B466632A171FC9BB00CE9FA9 /* libHelpshift.a */; };
-		B46663AE171FCC5D00CE9FA9 /* HelpshiftConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = B46663AD171FCC5D00CE9FA9 /* HelpshiftConfig.plist */; };
+		B453CFD917BA02BD00801784 /* 2.5.0-release.txt in Resources */ = {isa = PBXBuildFile; fileRef = B453CFB517BA02BD00801784 /* 2.5.0-release.txt */; };
+		B453CFDA17BA02BD00801784 /* HelpshiftLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B453CFB817BA02BD00801784 /* HelpshiftLocalizable.strings */; };
+		B453CFDB17BA02BD00801784 /* HS-background-tile.png in Resources */ = {isa = PBXBuildFile; fileRef = B453CFBD17BA02BD00801784 /* HS-background-tile.png */; };
+		B453CFDC17BA02BD00801784 /* HS-background-tile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B453CFBE17BA02BD00801784 /* HS-background-tile@2x.png */; };
+		B453CFDD17BA02BD00801784 /* HS-no-connection.png in Resources */ = {isa = PBXBuildFile; fileRef = B453CFBF17BA02BD00801784 /* HS-no-connection.png */; };
+		B453CFDE17BA02BD00801784 /* HS-no-connection@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B453CFC017BA02BD00801784 /* HS-no-connection@2x.png */; };
+		B453CFDF17BA02BD00801784 /* HS-powered-by-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B453CFC117BA02BD00801784 /* HS-powered-by-logo.png */; };
+		B453CFE017BA02BD00801784 /* HS-powered-by-logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B453CFC217BA02BD00801784 /* HS-powered-by-logo@2x.png */; };
+		B453CFE117BA02BD00801784 /* HS-screenshot-error.png in Resources */ = {isa = PBXBuildFile; fileRef = B453CFC317BA02BD00801784 /* HS-screenshot-error.png */; };
+		B453CFE217BA02BD00801784 /* HS-screenshot-error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B453CFC417BA02BD00801784 /* HS-screenshot-error@2x.png */; };
+		B453CFE317BA02BD00801784 /* HS-section-header.png in Resources */ = {isa = PBXBuildFile; fileRef = B453CFC517BA02BD00801784 /* HS-section-header.png */; };
+		B453CFE417BA02BD00801784 /* HS-section-header@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B453CFC617BA02BD00801784 /* HS-section-header@2x.png */; };
+		B453CFE517BA02BD00801784 /* HSChatBubbleBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = B453CFC717BA02BD00801784 /* HSChatBubbleBlue.png */; };
+		B453CFE617BA02BD00801784 /* HSChatBubbleBlue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B453CFC817BA02BD00801784 /* HSChatBubbleBlue@2x.png */; };
+		B453CFE717BA02BD00801784 /* HSChatBubbleWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = B453CFC917BA02BD00801784 /* HSChatBubbleWhite.png */; };
+		B453CFE817BA02BD00801784 /* HSChatBubbleWhite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B453CFCA17BA02BD00801784 /* HSChatBubbleWhite@2x.png */; };
+		B453CFE917BA02BD00801784 /* HSConfirmBox.png in Resources */ = {isa = PBXBuildFile; fileRef = B453CFCB17BA02BD00801784 /* HSConfirmBox.png */; };
+		B453CFEA17BA02BD00801784 /* HSConfirmBox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B453CFCC17BA02BD00801784 /* HSConfirmBox@2x.png */; };
+		B453CFEB17BA02BD00801784 /* HSTutorial.png in Resources */ = {isa = PBXBuildFile; fileRef = B453CFCD17BA02BD00801784 /* HSTutorial.png */; };
+		B453CFEC17BA02BD00801784 /* HSTutorial@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B453CFCE17BA02BD00801784 /* HSTutorial@2x.png */; };
+		B453CFED17BA02BD00801784 /* HSTutorialiPad.png in Resources */ = {isa = PBXBuildFile; fileRef = B453CFCF17BA02BD00801784 /* HSTutorialiPad.png */; };
+		B453CFEE17BA02BD00801784 /* HSTutorialiPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B453CFD017BA02BD00801784 /* HSTutorialiPad@2x.png */; };
+		B453CFEF17BA02BD00801784 /* HelpshiftConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = B453CFD617BA02BD00801784 /* HelpshiftConfig.plist */; };
+		B453CFF017BA02BD00801784 /* HelpshiftConfigDark.plist in Resources */ = {isa = PBXBuildFile; fileRef = B453CFD717BA02BD00801784 /* HelpshiftConfigDark.plist */; };
+		B453CFF117BA02BD00801784 /* libHelpshift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B453CFD817BA02BD00801784 /* libHelpshift.a */; };
 		B48196811716C013009B5DDB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B48196801716C013009B5DDB /* UIKit.framework */; };
 		B48196831716C013009B5DDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B48196821716C013009B5DDB /* Foundation.framework */; };
 		B48196851716C013009B5DDB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B48196841716C013009B5DDB /* CoreGraphics.framework */; };
@@ -57,35 +59,39 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B466630F171FC9BB00CE9FA9 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
-		B4666310171FC9BB00CE9FA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
-		B4666311171FC9BB00CE9FA9 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
-		B4666312171FC9BB00CE9FA9 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
-		B4666313171FC9BB00CE9FA9 /* HS-background-tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HS-background-tile.png"; sourceTree = "<group>"; };
-		B4666314171FC9BB00CE9FA9 /* HS-background-tile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HS-background-tile@2x.png"; sourceTree = "<group>"; };
-		B4666315171FC9BB00CE9FA9 /* HS-no-connection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HS-no-connection.png"; sourceTree = "<group>"; };
-		B4666316171FC9BB00CE9FA9 /* HS-no-connection@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HS-no-connection@2x.png"; sourceTree = "<group>"; };
-		B4666317171FC9BB00CE9FA9 /* HS-powered-by-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HS-powered-by-logo.png"; sourceTree = "<group>"; };
-		B4666318171FC9BB00CE9FA9 /* HS-powered-by-logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HS-powered-by-logo@2x.png"; sourceTree = "<group>"; };
-		B4666319171FC9BB00CE9FA9 /* HS-screenshot-error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HS-screenshot-error.png"; sourceTree = "<group>"; };
-		B466631A171FC9BB00CE9FA9 /* HS-screenshot-error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HS-screenshot-error@2x.png"; sourceTree = "<group>"; };
-		B466631B171FC9BB00CE9FA9 /* HS-section-header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HS-section-header.png"; sourceTree = "<group>"; };
-		B466631C171FC9BB00CE9FA9 /* HS-section-header@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HS-section-header@2x.png"; sourceTree = "<group>"; };
-		B466631D171FC9BB00CE9FA9 /* HSChatBubbleBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HSChatBubbleBlue.png; sourceTree = "<group>"; };
-		B466631E171FC9BB00CE9FA9 /* HSChatBubbleBlue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HSChatBubbleBlue@2x.png"; sourceTree = "<group>"; };
-		B466631F171FC9BB00CE9FA9 /* HSChatBubbleWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HSChatBubbleWhite.png; sourceTree = "<group>"; };
-		B4666320171FC9BB00CE9FA9 /* HSChatBubbleWhite@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HSChatBubbleWhite@2x.png"; sourceTree = "<group>"; };
-		B4666321171FC9BB00CE9FA9 /* HSConfirmBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HSConfirmBox.png; sourceTree = "<group>"; };
-		B4666322171FC9BB00CE9FA9 /* HSConfirmBox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HSConfirmBox@2x.png"; sourceTree = "<group>"; };
-		B4666323171FC9BB00CE9FA9 /* HSTutorial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HSTutorial.png; sourceTree = "<group>"; };
-		B4666324171FC9BB00CE9FA9 /* HSTutorial@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HSTutorial@2x.png"; sourceTree = "<group>"; };
-		B4666325171FC9BB00CE9FA9 /* HSTutorialiPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HSTutorialiPad.png; sourceTree = "<group>"; };
-		B4666326171FC9BB00CE9FA9 /* HSTutorialiPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HSTutorialiPad@2x.png"; sourceTree = "<group>"; };
-		B4666327171FC9BB00CE9FA9 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
-		B4666328171FC9BB00CE9FA9 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
-		B4666329171FC9BB00CE9FA9 /* Helpshift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Helpshift.h; path = "../HelpshiftSDK-2.2.0/Helpshift.h"; sourceTree = "<group>"; };
-		B466632A171FC9BB00CE9FA9 /* libHelpshift.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libHelpshift.a; path = "../HelpshiftSDK-2.2.0/libHelpshift.a"; sourceTree = "<group>"; };
-		B46663AD171FCC5D00CE9FA9 /* HelpshiftConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = HelpshiftConfig.plist; path = "../HelpshiftSDK-2.2.0/HSThemes/HelpshiftConfig.plist"; sourceTree = "<group>"; };
+		B453CFB517BA02BD00801784 /* 2.5.0-release.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "2.5.0-release.txt"; sourceTree = "<group>"; };
+		B453CFB617BA02BD00801784 /* Helpshift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helpshift.h; sourceTree = "<group>"; };
+		B453CFB917BA02BD00801784 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		B453CFBA17BA02BD00801784 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		B453CFBB17BA02BD00801784 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		B453CFBC17BA02BD00801784 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		B453CFBD17BA02BD00801784 /* HS-background-tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HS-background-tile.png"; sourceTree = "<group>"; };
+		B453CFBE17BA02BD00801784 /* HS-background-tile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HS-background-tile@2x.png"; sourceTree = "<group>"; };
+		B453CFBF17BA02BD00801784 /* HS-no-connection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HS-no-connection.png"; sourceTree = "<group>"; };
+		B453CFC017BA02BD00801784 /* HS-no-connection@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HS-no-connection@2x.png"; sourceTree = "<group>"; };
+		B453CFC117BA02BD00801784 /* HS-powered-by-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HS-powered-by-logo.png"; sourceTree = "<group>"; };
+		B453CFC217BA02BD00801784 /* HS-powered-by-logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HS-powered-by-logo@2x.png"; sourceTree = "<group>"; };
+		B453CFC317BA02BD00801784 /* HS-screenshot-error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HS-screenshot-error.png"; sourceTree = "<group>"; };
+		B453CFC417BA02BD00801784 /* HS-screenshot-error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HS-screenshot-error@2x.png"; sourceTree = "<group>"; };
+		B453CFC517BA02BD00801784 /* HS-section-header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HS-section-header.png"; sourceTree = "<group>"; };
+		B453CFC617BA02BD00801784 /* HS-section-header@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HS-section-header@2x.png"; sourceTree = "<group>"; };
+		B453CFC717BA02BD00801784 /* HSChatBubbleBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HSChatBubbleBlue.png; sourceTree = "<group>"; };
+		B453CFC817BA02BD00801784 /* HSChatBubbleBlue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HSChatBubbleBlue@2x.png"; sourceTree = "<group>"; };
+		B453CFC917BA02BD00801784 /* HSChatBubbleWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HSChatBubbleWhite.png; sourceTree = "<group>"; };
+		B453CFCA17BA02BD00801784 /* HSChatBubbleWhite@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HSChatBubbleWhite@2x.png"; sourceTree = "<group>"; };
+		B453CFCB17BA02BD00801784 /* HSConfirmBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HSConfirmBox.png; sourceTree = "<group>"; };
+		B453CFCC17BA02BD00801784 /* HSConfirmBox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HSConfirmBox@2x.png"; sourceTree = "<group>"; };
+		B453CFCD17BA02BD00801784 /* HSTutorial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HSTutorial.png; sourceTree = "<group>"; };
+		B453CFCE17BA02BD00801784 /* HSTutorial@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HSTutorial@2x.png"; sourceTree = "<group>"; };
+		B453CFCF17BA02BD00801784 /* HSTutorialiPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HSTutorialiPad.png; sourceTree = "<group>"; };
+		B453CFD017BA02BD00801784 /* HSTutorialiPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HSTutorialiPad@2x.png"; sourceTree = "<group>"; };
+		B453CFD117BA02BD00801784 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		B453CFD217BA02BD00801784 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		B453CFD317BA02BD00801784 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		B453CFD417BA02BD00801784 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/HelpshiftLocalizable.strings"; sourceTree = "<group>"; };
+		B453CFD617BA02BD00801784 /* HelpshiftConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HelpshiftConfig.plist; sourceTree = "<group>"; };
+		B453CFD717BA02BD00801784 /* HelpshiftConfigDark.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HelpshiftConfigDark.plist; sourceTree = "<group>"; };
+		B453CFD817BA02BD00801784 /* libHelpshift.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHelpshift.a; sourceTree = "<group>"; };
 		B481967D1716C013009B5DDB /* NotificationCountApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotificationCountApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B48196801716C013009B5DDB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B48196821716C013009B5DDB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -133,47 +139,68 @@
 				B48196811716C013009B5DDB /* UIKit.framework in Frameworks */,
 				B48196831716C013009B5DDB /* Foundation.framework in Frameworks */,
 				B48196851716C013009B5DDB /* CoreGraphics.framework in Frameworks */,
-				B4666340171FC9BB00CE9FA9 /* libHelpshift.a in Frameworks */,
+				B453CFF117BA02BD00801784 /* libHelpshift.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B466630D171FC9BB00CE9FA9 /* HSResources */ = {
+		B453CFB417BA02BD00801784 /* helpshift-ios-sdk */ = {
 			isa = PBXGroup;
 			children = (
-				B466630E171FC9BB00CE9FA9 /* HelpshiftLocalizable.strings */,
-				B4666313171FC9BB00CE9FA9 /* HS-background-tile.png */,
-				B4666314171FC9BB00CE9FA9 /* HS-background-tile@2x.png */,
-				B4666315171FC9BB00CE9FA9 /* HS-no-connection.png */,
-				B4666316171FC9BB00CE9FA9 /* HS-no-connection@2x.png */,
-				B4666317171FC9BB00CE9FA9 /* HS-powered-by-logo.png */,
-				B4666318171FC9BB00CE9FA9 /* HS-powered-by-logo@2x.png */,
-				B4666319171FC9BB00CE9FA9 /* HS-screenshot-error.png */,
-				B466631A171FC9BB00CE9FA9 /* HS-screenshot-error@2x.png */,
-				B466631B171FC9BB00CE9FA9 /* HS-section-header.png */,
-				B466631C171FC9BB00CE9FA9 /* HS-section-header@2x.png */,
-				B466631D171FC9BB00CE9FA9 /* HSChatBubbleBlue.png */,
-				B466631E171FC9BB00CE9FA9 /* HSChatBubbleBlue@2x.png */,
-				B466631F171FC9BB00CE9FA9 /* HSChatBubbleWhite.png */,
-				B4666320171FC9BB00CE9FA9 /* HSChatBubbleWhite@2x.png */,
-				B4666321171FC9BB00CE9FA9 /* HSConfirmBox.png */,
-				B4666322171FC9BB00CE9FA9 /* HSConfirmBox@2x.png */,
-				B4666323171FC9BB00CE9FA9 /* HSTutorial.png */,
-				B4666324171FC9BB00CE9FA9 /* HSTutorial@2x.png */,
-				B4666325171FC9BB00CE9FA9 /* HSTutorialiPad.png */,
-				B4666326171FC9BB00CE9FA9 /* HSTutorialiPad@2x.png */,
+				B453CFB517BA02BD00801784 /* 2.5.0-release.txt */,
+				B453CFB617BA02BD00801784 /* Helpshift.h */,
+				B453CFB717BA02BD00801784 /* HSResources */,
+				B453CFD517BA02BD00801784 /* HSThemes */,
+				B453CFD817BA02BD00801784 /* libHelpshift.a */,
 			);
-			name = HSResources;
-			path = "../HelpshiftSDK-2.2.0/HSResources";
+			name = "helpshift-ios-sdk";
+			path = "../helpshift-ios-sdk";
+			sourceTree = "<group>";
+		};
+		B453CFB717BA02BD00801784 /* HSResources */ = {
+			isa = PBXGroup;
+			children = (
+				B453CFB817BA02BD00801784 /* HelpshiftLocalizable.strings */,
+				B453CFBD17BA02BD00801784 /* HS-background-tile.png */,
+				B453CFBE17BA02BD00801784 /* HS-background-tile@2x.png */,
+				B453CFBF17BA02BD00801784 /* HS-no-connection.png */,
+				B453CFC017BA02BD00801784 /* HS-no-connection@2x.png */,
+				B453CFC117BA02BD00801784 /* HS-powered-by-logo.png */,
+				B453CFC217BA02BD00801784 /* HS-powered-by-logo@2x.png */,
+				B453CFC317BA02BD00801784 /* HS-screenshot-error.png */,
+				B453CFC417BA02BD00801784 /* HS-screenshot-error@2x.png */,
+				B453CFC517BA02BD00801784 /* HS-section-header.png */,
+				B453CFC617BA02BD00801784 /* HS-section-header@2x.png */,
+				B453CFC717BA02BD00801784 /* HSChatBubbleBlue.png */,
+				B453CFC817BA02BD00801784 /* HSChatBubbleBlue@2x.png */,
+				B453CFC917BA02BD00801784 /* HSChatBubbleWhite.png */,
+				B453CFCA17BA02BD00801784 /* HSChatBubbleWhite@2x.png */,
+				B453CFCB17BA02BD00801784 /* HSConfirmBox.png */,
+				B453CFCC17BA02BD00801784 /* HSConfirmBox@2x.png */,
+				B453CFCD17BA02BD00801784 /* HSTutorial.png */,
+				B453CFCE17BA02BD00801784 /* HSTutorial@2x.png */,
+				B453CFCF17BA02BD00801784 /* HSTutorialiPad.png */,
+				B453CFD017BA02BD00801784 /* HSTutorialiPad@2x.png */,
+			);
+			path = HSResources;
+			sourceTree = "<group>";
+		};
+		B453CFD517BA02BD00801784 /* HSThemes */ = {
+			isa = PBXGroup;
+			children = (
+				B453CFD617BA02BD00801784 /* HelpshiftConfig.plist */,
+				B453CFD717BA02BD00801784 /* HelpshiftConfigDark.plist */,
+			);
+			path = HSThemes;
 			sourceTree = "<group>";
 		};
 		B48196741716C013009B5DDB = {
 			isa = PBXGroup;
 			children = (
+				B453CFB417BA02BD00801784 /* helpshift-ios-sdk */,
 				B48196861716C013009B5DDB /* Notification Count */,
-				B48196AF1716C03C009B5DDB /* HelpshiftSDK */,
 				B481967F1716C013009B5DDB /* Frameworks */,
 				B481967E1716C013009B5DDB /* Products */,
 			);
@@ -234,17 +261,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B48196AF1716C03C009B5DDB /* HelpshiftSDK */ = {
-			isa = PBXGroup;
-			children = (
-				B46663AD171FCC5D00CE9FA9 /* HelpshiftConfig.plist */,
-				B466630D171FC9BB00CE9FA9 /* HSResources */,
-				B4666329171FC9BB00CE9FA9 /* Helpshift.h */,
-				B466632A171FC9BB00CE9FA9 /* libHelpshift.a */,
-			);
-			name = HelpshiftSDK;
-			sourceTree = "<group>";
-		};
 		B48806B3171BCF7300C3A95E /* Shared Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -298,6 +314,8 @@
 				fr,
 				it,
 				ru,
+				pt,
+				"zh-Hans",
 			);
 			mainGroup = B48196741716C013009B5DDB;
 			productRefGroup = B481967E1716C013009B5DDB /* Products */;
@@ -324,28 +342,30 @@
 				B48806B9171BCF7300C3A95E /* avatar@2x.png in Resources */,
 				B48806BA171BCF7300C3A95E /* paper.png in Resources */,
 				B48806BB171BCF7300C3A95E /* paper_@2X.png in Resources */,
-				B466632B171FC9BB00CE9FA9 /* HelpshiftLocalizable.strings in Resources */,
-				B466632C171FC9BB00CE9FA9 /* HS-background-tile.png in Resources */,
-				B466632D171FC9BB00CE9FA9 /* HS-background-tile@2x.png in Resources */,
-				B466632E171FC9BB00CE9FA9 /* HS-no-connection.png in Resources */,
-				B466632F171FC9BB00CE9FA9 /* HS-no-connection@2x.png in Resources */,
-				B4666330171FC9BB00CE9FA9 /* HS-powered-by-logo.png in Resources */,
-				B4666331171FC9BB00CE9FA9 /* HS-powered-by-logo@2x.png in Resources */,
-				B4666332171FC9BB00CE9FA9 /* HS-screenshot-error.png in Resources */,
-				B4666333171FC9BB00CE9FA9 /* HS-screenshot-error@2x.png in Resources */,
-				B4666334171FC9BB00CE9FA9 /* HS-section-header.png in Resources */,
-				B4666335171FC9BB00CE9FA9 /* HS-section-header@2x.png in Resources */,
-				B4666336171FC9BB00CE9FA9 /* HSChatBubbleBlue.png in Resources */,
-				B4666337171FC9BB00CE9FA9 /* HSChatBubbleBlue@2x.png in Resources */,
-				B4666338171FC9BB00CE9FA9 /* HSChatBubbleWhite.png in Resources */,
-				B4666339171FC9BB00CE9FA9 /* HSChatBubbleWhite@2x.png in Resources */,
-				B466633A171FC9BB00CE9FA9 /* HSConfirmBox.png in Resources */,
-				B466633B171FC9BB00CE9FA9 /* HSConfirmBox@2x.png in Resources */,
-				B466633C171FC9BB00CE9FA9 /* HSTutorial.png in Resources */,
-				B466633D171FC9BB00CE9FA9 /* HSTutorial@2x.png in Resources */,
-				B466633E171FC9BB00CE9FA9 /* HSTutorialiPad.png in Resources */,
-				B466633F171FC9BB00CE9FA9 /* HSTutorialiPad@2x.png in Resources */,
-				B46663AE171FCC5D00CE9FA9 /* HelpshiftConfig.plist in Resources */,
+				B453CFD917BA02BD00801784 /* 2.5.0-release.txt in Resources */,
+				B453CFDA17BA02BD00801784 /* HelpshiftLocalizable.strings in Resources */,
+				B453CFDB17BA02BD00801784 /* HS-background-tile.png in Resources */,
+				B453CFDC17BA02BD00801784 /* HS-background-tile@2x.png in Resources */,
+				B453CFDD17BA02BD00801784 /* HS-no-connection.png in Resources */,
+				B453CFDE17BA02BD00801784 /* HS-no-connection@2x.png in Resources */,
+				B453CFDF17BA02BD00801784 /* HS-powered-by-logo.png in Resources */,
+				B453CFE017BA02BD00801784 /* HS-powered-by-logo@2x.png in Resources */,
+				B453CFE117BA02BD00801784 /* HS-screenshot-error.png in Resources */,
+				B453CFE217BA02BD00801784 /* HS-screenshot-error@2x.png in Resources */,
+				B453CFE317BA02BD00801784 /* HS-section-header.png in Resources */,
+				B453CFE417BA02BD00801784 /* HS-section-header@2x.png in Resources */,
+				B453CFE517BA02BD00801784 /* HSChatBubbleBlue.png in Resources */,
+				B453CFE617BA02BD00801784 /* HSChatBubbleBlue@2x.png in Resources */,
+				B453CFE717BA02BD00801784 /* HSChatBubbleWhite.png in Resources */,
+				B453CFE817BA02BD00801784 /* HSChatBubbleWhite@2x.png in Resources */,
+				B453CFE917BA02BD00801784 /* HSConfirmBox.png in Resources */,
+				B453CFEA17BA02BD00801784 /* HSConfirmBox@2x.png in Resources */,
+				B453CFEB17BA02BD00801784 /* HSTutorial.png in Resources */,
+				B453CFEC17BA02BD00801784 /* HSTutorial@2x.png in Resources */,
+				B453CFED17BA02BD00801784 /* HSTutorialiPad.png in Resources */,
+				B453CFEE17BA02BD00801784 /* HSTutorialiPad@2x.png in Resources */,
+				B453CFEF17BA02BD00801784 /* HelpshiftConfig.plist in Resources */,
+				B453CFF017BA02BD00801784 /* HelpshiftConfigDark.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,15 +385,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B466630E171FC9BB00CE9FA9 /* HelpshiftLocalizable.strings */ = {
+		B453CFB817BA02BD00801784 /* HelpshiftLocalizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B466630F171FC9BB00CE9FA9 /* de */,
-				B4666310171FC9BB00CE9FA9 /* en */,
-				B4666311171FC9BB00CE9FA9 /* es */,
-				B4666312171FC9BB00CE9FA9 /* fr */,
-				B4666327171FC9BB00CE9FA9 /* it */,
-				B4666328171FC9BB00CE9FA9 /* ru */,
+				B453CFB917BA02BD00801784 /* de */,
+				B453CFBA17BA02BD00801784 /* en */,
+				B453CFBB17BA02BD00801784 /* es */,
+				B453CFBC17BA02BD00801784 /* fr */,
+				B453CFD117BA02BD00801784 /* it */,
+				B453CFD217BA02BD00801784 /* pt */,
+				B453CFD317BA02BD00801784 /* ru */,
+				B453CFD417BA02BD00801784 /* zh-Hans */,
 			);
 			name = HelpshiftLocalizable.strings;
 			sourceTree = "<group>";
@@ -470,7 +492,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../HelpshiftSDK-2.2.0\"",
+					"\"$(SRCROOT)/../helpshift-ios-sdk\"",
 				);
 				PRODUCT_NAME = NotificationCountApp;
 				WRAPPER_EXTENSION = app;
@@ -486,7 +508,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../HelpshiftSDK-2.2.0\"",
+					"\"$(SRCROOT)/../helpshift-ios-sdk\"",
 				);
 				PRODUCT_NAME = NotificationCountApp;
 				WRAPPER_EXTENSION = app;
