@@ -1,5 +1,5 @@
   
-Helpshift SDK 2.5.0 Release Notes (for iOS)
+Helpshift SDK 3.0.0 Release Notes (for iOS)
 -----------------------------------------------
 
 Helpshift is an embedded support desk for native apps.
@@ -10,9 +10,40 @@ App must be running on iOS 5 or 6.
 The SDK works with armv7 or armv7s as well as i386 (iOS simulator) architectures.
 
 Documentation for Installation and Usage Instructions:
-http://www.helpshift.com/docs/
+http://developers.helpshift.com/
 
 New features:
+3.0.0 Release Date: September 13, 2013
+       * iOS 7 Support for iPad
+       * Bug fixes
+       * UI fixes
+3.0.0-rc.1 Release Date: September 7, 2013
+       * iOS 7 Support for iPhone/iPod Touch devices
+       * Skinning changes for iOS 7
+       * UI fixes
+2.6.1  Release Date: September 3, 2013
+       * Bug fixes
+       * UI fixes
+2.6.0  Release Date: August 29, 2013
+       * Migrating away from OpenUDID to identifierForVendor for iOS 6.0+
+       * FAQ support for right-to-left languages
+       * Bug fixes
+2.6.0-rc.5 Release Date: August 14, 2013
+       * Critical UI fixes related to progress hud in landscape mode
+2.6.0-rc.4 Release Date: August 13, 2013
+       * Removed some detached UIKit methods to main thread
+       * FAQ screen fixes
+       * Bug fixes
+       * UI fixes
+2.6.0-rc.3 Release Date: August 6, 2013
+       * Name collision fixes
+       * UI fixes
+2.6.0-rc.2 Release Date: July 29, 2013
+       * UI fixes
+2.6.0-rc.1 Release Date: July 25, 2013
+       * Send screenshot bug fixes
+       * Memory optimization fixes
+       * Bug fixes
 2.5.0 Release Date: June 17, 2013
        * Bug fixes in chat
 2.5.0-rc.1 Release Date: June 6, 2013

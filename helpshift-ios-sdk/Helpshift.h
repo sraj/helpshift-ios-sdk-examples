@@ -1,6 +1,6 @@
 /*
  *    Helpshift.h
- *    SDK version 2.5.0
+ *    SDK version 3.0.0
  *
  *    Get the documentation at http://www.helpshift.com/docs
  *
@@ -10,7 +10,7 @@
 #import <UIKit/UIKit.h>
 
 /**
-This document describes the API exposed by the Helpshift SDK (2.x) which the developers can use to integrate Helpshift support into their iOS applications. If you want documentation regarding how to use the various features provided by the Helpshift SDK, please visit [helpshift how-to page](http://www.helpshift.com/docs/howto/ios/v2.x/) 
+This document describes the API exposed by the Helpshift SDK (2.x) which the developers can use to integrate Helpshift support into their iOS applications. If you want documentation regarding how to use the various features provided by the Helpshift SDK, please visit [helpshift how-to page](http://www.helpshift.com/docs/howto/ios/v2.x/)
 */
 
 typedef NSDictionary* (^metadataBlock)(void);
@@ -24,37 +24,37 @@ typedef NSDictionary* (^metadataBlock)(void);
 @property (nonatomic,retain) id<HelpshiftDelegate> delegate;
 
 /** Initialize helpshift support
-    
+
 When initializing Helpshift you must pass these three tokens. You initialize Helpshift by adding the following lines in the implementation file for your app delegate, ideally at the top of application:didFinishLaunchingWithOptions. If you use this api to initialize helpshift support, in-app notifications will be enabled by default.
-In-app notifications are banner like notifications shown by the Helpshift SDK to alert the user of any updates to the reported issues. 
+In-app notifications are banner like notifications shown by the Helpshift SDK to alert the user of any updates to the reported issues.
 If you want to disable the in-app notifications please refer to the installForAppID:domainName:apiKey:withOptions: api
-     
+
     @param appID This is the unique ID assigned to your app
     @param domainName This is your domain name without any http:// or forward slashes
     @param apiKey This is your developer API Key
- 
+
     @available Available in SDK version 1.0.0 or later
 */
 + (void) installForAppID:(NSString *)appID domainName:(NSString *)domainName apiKey:(NSString *)apiKey;
 
 /** Initialize helpshift support
- 
+
  When initializing Helpshift you must pass these three tokens. You initialize Helpshift by adding the following lines in the implementation file for your app delegate, ideally at the top of application:didFinishLaunchingWithOptions
- 
+
  @param appID This is the unique ID assigned to your app
  @param domainName This is your domain name without any http:// or forward slashes
  @param apiKey This is your developer API Key
  @param withOptions This is the dictionary which contains additional configuration options for the HelpshiftSDK. Currently we support the "disableInAppNotif" as the only available option. Possible values are <"YES"/"NO">. If you set the flag to "YES", the helpshift SDK will show notifications similar to the banner notifications supported by Apple Push notifications. These notifications will alert the user of any updates to reported issues. If you set the flag to "NO", the in-app notifications will be disabled.
- 
+
  @available Available in SDK version 2.4.0-rc.1 or later
  */
 
 + (void) installForAppID:(NSString *)appID domainName:(NSString *)domainName apiKey:(NSString *)apiKey withOptions : (NSDictionary *) optionsDictionary;
 
 /** Returns an instance of Helpshift
- 
+
  When calling any Helpshift instance method you must use sharedInstance. For example to call showSupport: you must call it like [[Helpshift sharedInstance] showSupport:self];
- 
+
  @available Available in SDK version 1.0.0 or later
  */
 + (Helpshift *) sharedInstance;
@@ -217,8 +217,8 @@ If you want to attach custom data along with any reported issues, use this api t
 + (void) metadataWithBlock : (metadataBlock) metadataBlock;
 
 /** Get the notification count for replies to reported issues.
- 
- 
+
+
  If you want to show your user notifications for replies on the issues posted, you can get the notification count asynchronously by implementing the HelpshiftDelegate in your respective .h and .m files.
  Use the following method to set the delegate, where self is the object implementing the delegate.
  [[Helpshift sharedInstance] setDelegate:self];
@@ -229,9 +229,9 @@ If you want to attach custom data along with any reported issues, use this api t
  count delegate method.
  If you want to retrieve the current notification count synchronously, you can call the same method with the parameter set to false, i.e
  NSInteger count = [[Helpshift sharedInstance] notificationCountAsync:false]
- 
+
  @param isAsync Whether the notification count is to be returned asynchronously via delegate mechanism or synchronously as a return val for this api
- 
+
  @available Available in SDK version 1.4.4 or later
  */
 
@@ -241,7 +241,7 @@ If you want to attach custom data along with any reported issues, use this api t
 
 
 To enable push notifications in the Helpshift iOS SDK, set the Push Notifications’ deviceToken using this method inside your application:didRegisterForRemoteNotificationsWithDeviceToken application delegate.
-    
+
     @param deviceToken The deviceToken received from the push notification servers.
 
 Example usage
@@ -250,21 +250,21 @@ Example usage
     {
         [[Helpshift sharedInstance] registerDeviceToken:deviceToken];
     }
- 
+
     @available Available in SDK version 1.4.0 or later
- 
+
 */
 - (void) registerDeviceToken:(NSData *) deviceToken;
 
 /** Forward the push notification for the Helpshift lib to handle
 
 
-To show support on Notification opened, call handleNotification in your application:didReceiveRemoteNotification application delegate. 
+To show support on Notification opened, call handleNotification in your application:didReceiveRemoteNotification application delegate.
 If the value of the “origin” field is “helpshift” call the handleNotification api
 
     @param notification The dictionary containing the notification information
     @param viewController ViewController on which the helpshift support screen will show up.
-    
+
 Example usage
     - (void) application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo
     {
@@ -274,38 +274,38 @@ Example usage
     }
 
     @available Available in SDK version 1.4.0 or later
- 
+
 */
 - (void) handleNotification: (NSDictionary *)notification withController : (UIViewController *) viewController;
 
 /** Clears all local Helpshift user data
- 
+
  Clears all local data which is user related (includes issues, user info, faq likes, etc).
- 
+
  @available Available in SDK version 2.3.0-rc.1 or later
- 
+
  */
 - (void) clearUserData;
 
 /** Clears Breadcrumbs list.
- 
- Breadcrumbs list stores upto 100 latest actions. You'll receive those in every Issue. 
+
+ Breadcrumbs list stores upto 100 latest actions. You'll receive those in every Issue.
  If for some reason you want to clear previous messages, you can use this method.
- 
+
  @available Available in SDK version 2.3.0-rc.1 or later
- 
+
  */
 - (void) clearBreadCrumbs;
 
 /** Forward the local notification for the Helpshift lib to handle
- 
- 
+
+
  To show support on Notification opened, call handleLocalNotification in your application:didReceiveLocalNotification application delegate.
  If the value of the “origin” field is “helpshift” call the handleLocalNotification api
- 
+
  @param notification The UILocalNotification object containing the notification information
  @param viewController ViewController on which the helpshift support screen will show up.
- 
+
  Example usage
     - (void) application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification
     {
@@ -314,7 +314,7 @@ Example usage
     }
 
  @available Available in SDK version 2.4.0-rc.1 or later
- 
+
  */
 
 - (void) handleLocalNotification: (UILocalNotification *)notification withController : (UIViewController *) viewController;
@@ -325,14 +325,14 @@ Example usage
 
 /** Delegate method call that should be implemented if you are calling notificationCountAsync.
  @param count Returns the number of issues with unread messages.
- 
+
  @available Available in SDK version 1.4.4 or later
  */
 
 - (void) notificationCountAsyncReceived:(NSInteger)count;
 
 /** Optional delegate method that is called when the Helpshift session ends.
- 
+
     @available Available in SDK version 1.4.3 or later
 */
 @optional

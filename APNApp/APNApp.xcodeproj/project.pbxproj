@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B453D05517BA05F300801784 /* 2.5.0-release.txt in Resources */ = {isa = PBXBuildFile; fileRef = B453D03117BA05F300801784 /* 2.5.0-release.txt */; };
+		B418571617E45FED00648EDB /* 3.0.0-release.txt in Resources */ = {isa = PBXBuildFile; fileRef = B418571517E45FED00648EDB /* 3.0.0-release.txt */; };
 		B453D05617BA05F300801784 /* HelpshiftLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B453D03417BA05F300801784 /* HelpshiftLocalizable.strings */; };
 		B453D05717BA05F300801784 /* HS-background-tile.png in Resources */ = {isa = PBXBuildFile; fileRef = B453D03917BA05F300801784 /* HS-background-tile.png */; };
 		B453D05817BA05F300801784 /* HS-background-tile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B453D03A17BA05F300801784 /* HS-background-tile@2x.png */; };
@@ -59,7 +59,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B453D03117BA05F300801784 /* 2.5.0-release.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "2.5.0-release.txt"; sourceTree = "<group>"; };
+		B418571517E45FED00648EDB /* 3.0.0-release.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "3.0.0-release.txt"; sourceTree = "<group>"; };
 		B453D03217BA05F300801784 /* Helpshift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helpshift.h; sourceTree = "<group>"; };
 		B453D03517BA05F300801784 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
 		B453D03617BA05F300801784 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
@@ -149,7 +149,7 @@
 		B453D03017BA05F300801784 /* helpshift-ios-sdk */ = {
 			isa = PBXGroup;
 			children = (
-				B453D03117BA05F300801784 /* 2.5.0-release.txt */,
+				B418571517E45FED00648EDB /* 3.0.0-release.txt */,
 				B453D03217BA05F300801784 /* Helpshift.h */,
 				B453D03317BA05F300801784 /* HSResources */,
 				B453D05117BA05F300801784 /* HSThemes */,
@@ -342,7 +342,6 @@
 				B48806CB171BDCF900C3A95E /* avatar@2x.png in Resources */,
 				B48806CC171BDCF900C3A95E /* paper.png in Resources */,
 				B48806CD171BDCF900C3A95E /* paper_@2X.png in Resources */,
-				B453D05517BA05F300801784 /* 2.5.0-release.txt in Resources */,
 				B453D05617BA05F300801784 /* HelpshiftLocalizable.strings in Resources */,
 				B453D05717BA05F300801784 /* HS-background-tile.png in Resources */,
 				B453D05817BA05F300801784 /* HS-background-tile@2x.png in Resources */,
@@ -363,6 +362,7 @@
 				B453D06717BA05F300801784 /* HSTutorial.png in Resources */,
 				B453D06817BA05F300801784 /* HSTutorial@2x.png in Resources */,
 				B453D06917BA05F300801784 /* HSTutorialiPad.png in Resources */,
+				B418571617E45FED00648EDB /* 3.0.0-release.txt in Resources */,
 				B453D06A17BA05F300801784 /* HSTutorialiPad@2x.png in Resources */,
 				B453D06B17BA05F300801784 /* HelpshiftConfig.plist in Resources */,
 				B453D06C17BA05F300801784 /* HelpshiftConfigDark.plist in Resources */,

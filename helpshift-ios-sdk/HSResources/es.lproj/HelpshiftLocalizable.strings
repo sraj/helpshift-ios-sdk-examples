@@ -28,10 +28,12 @@
 "How can we help?" = "¿En qué podemos ayudarle?";
 "No faqs found in this section" = "No se encontraron preguntas frecuentes en esta sección.";
 "Could not fetch faqs" = "No se obtuvieron preguntas frecuentes.";
+"We could not fetch the required data" = "No pudimos obtener los datos necesarios";
 "FAQ" = "PF";
 "My Issues" = "Mis problemas";
 "Can't find what you were looking for?" = "¿No encuentra lo que está buscando?";
 "Add an Issue" = "Añadir un problema";
+"Enter your Details" = "Introduzca sus datos";
 "Thank you for reporting this issue." = "Gracias por informar este problema.";
 "Thank you for reporting this issue. We have received it and will get back to you." = "Gracias por informar este problema. Lo hemos recibido y nos pondremos en contacto con usted.";
 "Sorry to hear that. Could you please tell us a little bit more about the problem you are facing?" = "Lo sentimos. ¿Nos cuenta un poco más del problema que está teniendo?";

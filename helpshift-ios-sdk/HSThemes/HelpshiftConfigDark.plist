@@ -2,91 +2,75 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>HS_NAVIGATION_BAR</key>
+	<key>Global Attributes</key>
 	<dict>
-		<key>FONT_NAME</key>
-		<string>Arial-Bold</string>
-		<key>FONT_SIZE</key>
+		<key>Font name</key>
 		<string></string>
-		<key>TEXT_COLOR</key>
+		<key>Bold font name</key>
 		<string></string>
-		<key>TEXT_SHADOW_COLOR</key>
+		<key>Background color</key>
+		<string>383838</string>
+		<key>Content background color</key>
+		<string>1a1a1a</string>
+		<key>Separator line color</key>
+		<string>404040</string>
+		<key>Text color</key>
+		<string>fafafa</string>
+		<key>Report issue button color</key>
+		<string>3396ff</string>
+	</dict>
+	<key>Navigation Bar</key>
+	<dict>
+		<key>Font name</key>
 		<string></string>
-		<key>BACKGROUND_COLOR</key>
-		<string>2D2D2D</string>
-		<key>BACKGROUND_IMAGE</key>
+		<key>Font size</key>
 		<string></string>
-		<key>BACKGROUND_IMAGE_LANDSCAPE</key>
+		<key>Title color</key>
+		<string>ffffff</string>
+		<key>Bar button text color</key>
+		<string>3396ff</string>
+		<key>Background color</key>
+		<string>1f1f1f</string>
+		<key>Text shadow color (iOS 6)</key>
+		<string></string>
+		<key>Background image (iOS 6)</key>
+		<string></string>
+		<key>Background image landscape (iOS 6)</key>
 		<string></string>
 	</dict>
-	<key>HS_SEARCH_BAR</key>
+	<key>Search Bar</key>
 	<dict>
-		<key>BACKGROUND_IMAGE</key>
-		<string></string>
-		<key>BACKGROUND_COLOR</key>
+		<key>Background color</key>
 		<string>000000</string>
+		<key>Button text color (iOS 6)</key>
+		<string>fafafa</string>
 	</dict>
-	<key>HS_TABLEVIEW_HEADER</key>
+	<key>Table Section Header</key>
 	<dict>
-		<key>FONT_NAME</key>
+		<key>Font name</key>
 		<string></string>
-		<key>FONT_SIZE</key>
+		<key>Font size</key>
 		<string></string>
-		<key>TEXT_COLOR</key>
-		<string>FDFDFD</string>
-		<key>BACKGROUND_COLOR</key>
-		<string>2D2D2D</string>
-		<key>BACKGROUND_IMAGE</key>
-		<string></string>
+		<key>Text color</key>
+		<string>b2b2b2</string>
 	</dict>
-	<key>HS_TABLEVIEW</key>
+	<key>FAQ and Chat Footer</key>
 	<dict>
-		<key>FONT_NAME</key>
-		<string></string>
-		<key>FONT_SIZE</key>
-		<string></string>
-		<key>TEXT_COLOR</key>
-		<string>D7D7D7</string>
-		<key>SEPARATOR_LINE_COLOR</key>
-		<string>1A1A1A</string>
+		<key>Chat send button color</key>
+		<string>3396ff</string>
+		<key>FAQ yes button color</key>
+		<string>3396ff</string>
+		<key>FAQ no button color</key>
+		<string>cca300</string>
 	</dict>
-	<key>HS_BADGE_VIEW</key>
+	<key>Notification Badge</key>
 	<dict>
-		<key>TEXT_COLOR</key>
-		<string></string>
-		<key>BORDER_COLOR</key>
-		<string></string>
-		<key>BACKGROUND_COLOR</key>
-		<string></string>
-	</dict>
-	<key>HS_CHAT_REPLY_BAR</key>
-	<dict>
-		<key>BORDER_COLOR</key>
-		<string></string>
-		<key>BACKGROUND_COLOR</key>
-		<string>2d2d2d</string>
-	</dict>
-	<key>HS_BUTTONS</key>
-	<dict>
-		<key>QUESTION_HELPFUL_YES_BACKGROUND_COLOR</key>
-		<string></string>
-		<key>QUESTION_HELPFUL_NO_BACKGROUND_COLOR</key>
-		<string></string>
-		<key>CHAT_SEND_BACKGROUND_COLOR</key>
-		<string>1D7E42</string>
-		<key>REPORT_ISSUE_BACKGROUND_COLOR</key>
-		<string>C93A32</string>
-	</dict>
-	<key>HS_GLOBAL</key>
-	<dict>
-		<key>FONT_NAME</key>
-		<string></string>
-		<key>BOLD_FONT_NAME</key>
-		<string></string>
-		<key>BACKGROUND_COLOR</key>
+		<key>Text color</key>
 		<string>000000</string>
-		<key>BACKGROUND_IMAGE</key>
+		<key>Border color (iOS 6)</key>
 		<string></string>
+		<key>Background color</key>
+		<string>ffcc00</string>
 	</dict>
 </dict>
 </plist>

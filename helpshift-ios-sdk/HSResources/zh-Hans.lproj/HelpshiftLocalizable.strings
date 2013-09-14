@@ -28,10 +28,12 @@
 "How can we help?" = "我们如何帮助你？";
 "No faqs found in this section" = "此部分未找到常见问题解答";
 "Could not fetch faqs" = "无法获取常见问题解答";
+"We could not fetch the required data" = "我们无法获取所需的数据";
 "FAQ" = "常见问题";
 "My Issues" = "我的问题";
 "Can't find what you were looking for?" = "无法找到你搜索的内容吗？";
 "Add an Issue" = "添加问题";
+"Enter your Details" = "请输入您的详细信息";
 "Thank you for reporting this issue." = "感谢你报告这个问题。";
 "Thank you for reporting this issue. We have received it and will get back to you." = "感谢你报告这个问题。我们已经收到报告并将给你回复。";
 "Sorry to hear that. Could you please tell us a little bit more about the problem you are facing?" = "听到这个消息很抱歉。可以向我们详细说明你面临的问题吗？";
