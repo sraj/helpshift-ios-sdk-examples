@@ -1,11 +1,12 @@
 Helpshift iOS SDK examples
 =========================
 
-Examples for integrating the Helpshift iOS SDK using HelpshiftSDK v2.5.0
+Examples for integrating the Helpshift iOS SDK using HelpshiftSDK v3.0.0
+(with iOS 7 support for iPhone, iPad and iPod)
 
 * ***HelpshiftSupportApp*** example app helps to show the support screens in your app
 
-* ***NotificationCountApp*** example app helps to show notification badges when replies are sent to the user  
+* ***NotificationCountApp*** example app helps to show notification badges when replies are sent to the user
 
 * ***APNApp*** example app helps to integrate Helpshift push notification service in your app
 
@@ -13,4 +14,3 @@ Examples for integrating the Helpshift iOS SDK using HelpshiftSDK v2.5.0
 
 
 Note: /helpshift-ios-sdk and /Shared Resources are required for example apps to run
-
