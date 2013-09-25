@@ -2,7 +2,6 @@
   HSLocalizable.strings
   Helpshift
 
-  Created by Suman Raj on 11/01/13.
   Copyright (c) 2013 Helpshift,Inc., All rights reserved.
 */
 
@@ -79,7 +78,6 @@
 "Loading..." = "Loading...";
 "Inbox" = "Inbox";
 "Help" = "Help";
-"Could not report your issue." = "Could not report your issue.";
 "Sending failed !" = "Sending failed !";
 "Screenshot could not be sent. Image is too large, try again with another image" = "Screenshot could not be sent. Image is too large, try again with another image";
 "Name invalid" = "Name invalid";

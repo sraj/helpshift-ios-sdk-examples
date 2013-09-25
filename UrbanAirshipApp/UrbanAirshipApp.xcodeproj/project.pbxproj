@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B418571817E4606300648EDB /* 3.0.0-release.txt in Resources */ = {isa = PBXBuildFile; fileRef = B418571717E4606300648EDB /* 3.0.0-release.txt */; };
 		B453D09417BA06DF00801784 /* HelpshiftLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B453D07217BA06DF00801784 /* HelpshiftLocalizable.strings */; };
 		B453D09517BA06DF00801784 /* HS-background-tile.png in Resources */ = {isa = PBXBuildFile; fileRef = B453D07717BA06DF00801784 /* HS-background-tile.png */; };
 		B453D09617BA06DF00801784 /* HS-background-tile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B453D07817BA06DF00801784 /* HS-background-tile@2x.png */; };
@@ -63,7 +62,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B418571717E4606300648EDB /* 3.0.0-release.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "3.0.0-release.txt"; sourceTree = "<group>"; };
 		B453D07017BA06DF00801784 /* Helpshift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helpshift.h; sourceTree = "<group>"; };
 		B453D07317BA06DF00801784 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
 		B453D07417BA06DF00801784 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
@@ -160,7 +158,6 @@
 		B453D06E17BA06DF00801784 /* helpshift-ios-sdk */ = {
 			isa = PBXGroup;
 			children = (
-				B418571717E4606300648EDB /* 3.0.0-release.txt */,
 				B453D07017BA06DF00801784 /* Helpshift.h */,
 				B453D07117BA06DF00801784 /* HSResources */,
 				B453D08F17BA06DF00801784 /* HSThemes */,
@@ -383,7 +380,6 @@
 				B453D0A217BA06DF00801784 /* HSChatBubbleWhite@2x.png in Resources */,
 				B453D0A317BA06DF00801784 /* HSConfirmBox.png in Resources */,
 				B453D0A417BA06DF00801784 /* HSConfirmBox@2x.png in Resources */,
-				B418571817E4606300648EDB /* 3.0.0-release.txt in Resources */,
 				B453D0A517BA06DF00801784 /* HSTutorial.png in Resources */,
 				B453D0A617BA06DF00801784 /* HSTutorial@2x.png in Resources */,
 				B453D0A717BA06DF00801784 /* HSTutorialiPad.png in Resources */,

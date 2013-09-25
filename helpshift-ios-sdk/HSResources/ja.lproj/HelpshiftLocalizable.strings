@@ -1,0 +1,87 @@
+/*
+ HSLocalizable.strings
+ Helpshift
+ 
+ Copyright (c) 2013 Helpshift,Inc., All rights reserved.
+*/
+
+"Review our app" = "アプリを評価";
+"Would you mind taking a moment to review our app? It won't take more than a minute. Thanks for your support!" = "少々お時間を割いてアプリを評価いただけませんか?1分もかかりません。ご協力ありがとうございます!";
+"Never ask me again" = "二度ときかない";
+"Rate and Review" = "評価とレビューを残す";
+"Remind me later" = "後で通知";
+"No Internet!" = "インターネットがありません！";
+"No working Internet connection is found." = "インターネット接続がありません。";
+"Take a screenshot on your iPhone" = "iPhoneでスクリーンショットを撮影";
+"Take a screenshot on your iPad" = "iPadでスクリーンショットを撮影";
+"Go to the screen you want a screenshot of, hold down the power button and the home button on your iPhone, at the same time." = "スクリーンショットが欲しい画面に行き、iPhoneのホームボタンと電源ボタンを同時にホールドしてください。";
+"Go to the screen you want a screenshot of, hold down the power button and the home button on your iPad, at the same time." = "スクリーンショットが欲しい画面に行き、iPadのホームボタンと電源ボタンを同時にホールドしてください。";
+"That's it, your screenshot is now in your iPhone gallery!" = "そうです、スクリーンショットはiPhoneギャラリーにあります!";
+"That's it, your screenshot is now in your iPad gallery!" = "そうです、スクリーンショットはiPadギャラリーにあります!";
+"Back to Issue" = "問題に戻る";
+"Take screenshot" = "スクリーンショットを撮影";
+"Opening Gallery..." = "ギャラリーを開いています...";
+"Sending Screenshot..." = "スクリーンショット送信中...";
+"Screenshot sent" = "スクリーンショットが送信されました";
+"Your message was not sent.Tap \"Try Again\" to send this message?" = "メッセージが送信されました。 \"再試行\" をタップしてこのメッセージを送信しますか?";
+"How can we help?" = "いかが致しましょう?";
+"No faqs found in this section" = "このセクションではよくある質問がありません";
+"Could not fetch faqs" = "よくある質問が取得できませんでした";
+"We could not fetch the required data" = "必要なデータが取得できませんでした";
+"FAQ" = "よくある質問";
+"My Issues" = "私の問題";
+"Can't find what you were looking for?" = "お探しのものが見つかりませんか?";
+"Add an Issue" = "問題を追加";
+"Enter your Details" = "詳細を記入";
+"Thank you for reporting this issue." = "この問題を報告いただきありがとうございます";
+"Thank you for reporting this issue. We have received it and will get back to you." = "この問題を報告いただき、ありがとうございます。確かに承りました。改めてご返信致します。";
+"Sorry to hear that. Could you please tell us a little bit more about the problem you are facing?" = "申し訳ございませんが、直面されている問題についてもう少し詳しく教えていただけませんか?";
+"We're happy to help you!" = "当社は喜んでユーザーの皆様をサポートします!";
+"We have received it and will get back to you." = "確かに承りました。改めてご返信致します。";
+"Could not send your issue" = "問題を送信できませんでした";
+"Please try again or check your network connection." = "再試行するかネットワーク接続をご確認ください。";
+"We will only ask for your details when you report your first issue. For more details read our privacy policy at" = "初めて問題を報告する際にのみあなたの詳細情報をたずねます。詳しくは、当社のプライバシーポリシーをご参照ください：";
+"Attaching device information will give the developer details of your device to help solve your problem quicker."= "デバイス情報を添付すると開発者がデバイスの詳細を把握できるので、迅速に問題が解決できます。";
+"Describe your problem" = "問題を説明してください";
+"Report Issue Text" = "問題を説明してください";
+"Your Name" = "名前";
+"Your email address (optional)" = "メールアドレス（任意）";
+"Email invalid" = "メールが無効です";
+"Please provide a valid email address." = "有効なメールアドレスを入力してください。";
+"Invalid Entry" = "入力が無効です";
+"Please enter a brief description of the issue you are facing." = "直面されている問題を簡単に説明してください。";
+"Attach device information" = "デバイス情報を添付";
+"REPORT AN ISSUE" = "問題を報告";
+"Question" = "質問";
+"Was this helpful?" = "お役に立ちましたか?";
+"You found this helpful." = "役に立ちました。";
+"You didn't find this helpful." = "役に立ちませんでした。";
+"Sending your issue..." = "問題を送信中...";
+"Next" = "次";
+"Try Again" = "再試行";
+"Cancel" = "キャンセル";
+"REVIEW" = "レビュー";
+"Send" = "送信";
+"Change" = "変更";
+"You have answered: NO" = "回答:いいえ";
+"You have answered: YES" = "回答: はい";
+"Ok, attach" = "OK、添付";
+"Learn how" = "方法を知る";
+"YES" = "はい";
+"NO" = "いいえ";
+"Accepted review request" = "レビューリクエストを受け取りました";
+"Messages" = "メッセージ";
+"SEND" = "送信";
+"Back" = "戻る";
+"OK" = "OK";
+"Close" = "終了";
+"Loading..." = "読み込み中...";
+"Inbox" = "受信箱";
+"Help" = "ヘルプ";
+"Sending failed !" = "送信失敗!";
+"Screenshot could not be sent. Image is too large, try again with another image" = "スクリーンショットが送信できませんでした。画像が大きすぎます。他の画像で再試行してください。";
+"Name invalid" = "名前が無効です";
+"Please provide a name." = "名前を入力してください。";
+"New message from Support" = "サポートからの新規メッセージ";
+"new messages from Support" = "サポートからの新規メッセージ";
+"No FAQs found" = "よくある質問が見つかりませんでした";

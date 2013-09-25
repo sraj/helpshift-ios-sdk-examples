@@ -1,6 +1,6 @@
 /*
  *    Helpshift.h
- *    SDK version 3.0.0
+ *    SDK version 3.1.0
  *
  *    Get the documentation at http://www.helpshift.com/docs
  *
@@ -10,7 +10,7 @@
 #import <UIKit/UIKit.h>
 
 /**
-This document describes the API exposed by the Helpshift SDK (2.x) which the developers can use to integrate Helpshift support into their iOS applications. If you want documentation regarding how to use the various features provided by the Helpshift SDK, please visit [helpshift how-to page](http://www.helpshift.com/docs/howto/ios/v2.x/)
+This document describes the API exposed by the Helpshift SDK (3.x) which the developers can use to integrate Helpshift support into their iOS applications. If you want documentation regarding how to use the various features provided by the Helpshift SDK, please visit the [developer docs](http://developers.helpshift.com/)
 */
 
 typedef NSDictionary* (^metadataBlock)(void);
@@ -162,10 +162,10 @@ To show the Helpshift support screen you need to pass the name of the viewcontro
 
 - (void) showFAQs:(UIViewController *)viewController withOptions:(NSDictionary *)optionsDictionary;
 
-/** Set the unique identifier for your users.
+/** Set an user identifier for your users.
 
-This is part of additional user configuration. You can setup the unique identifier that this user will have with this api.
-    @param userIdentifier A unique string to identify your users. For example "user-id-100"
+This is part of additional user configuration. The user identifier will be passed through to the admin dashboard as "User ID" under customer info.
+    @param userIdentifier A string to identify your users.
 
     @available Available in SDK version 1.0.0 or later
 */
@@ -332,6 +332,10 @@ Example usage
 - (void) notificationCountAsyncReceived:(NSInteger)count;
 
 /** Optional delegate method that is called when the Helpshift session ends.
+
+
+ Helpshift session is any Helpshift support screen opened via showSupport: or other API calls.
+ Whenever the user closes that support screen and returns back to the app this method is invoked.
 
     @available Available in SDK version 1.4.3 or later
 */

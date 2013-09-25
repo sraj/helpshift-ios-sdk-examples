@@ -1,0 +1,87 @@
+/*
+ HSLocalizable.strings
+ Helpshift
+ 
+ Copyright (c) 2013 Helpshift,Inc., All rights reserved.
+*/
+
+"Review our app" = "앱 리뷰하기";
+"Would you mind taking a moment to review our app? It won't take more than a minute. Thanks for your support!" = "잠시 시간을 내어 앱의 리뷰를 남겨주시겠습니까? 1분도 채 걸리지 않을 것입니다. 도와주셔서 감사합니다!";
+"Never ask me again" = "다시 묻지 않음";
+"Rate and Review" = "평가 및 리뷰";
+"Remind me later" = "나중에 알림";
+"No Internet!" = "인터넷 연결 없음!";
+"No working Internet connection is found." = "정상적인 인터넷 연결을 찾을 수 없습니다.";
+"Take a screenshot on your iPhone" = "iPhone에서 스크린샷을 찍으세요";
+"Take a screenshot on your iPad" = "iPad에서 스크린샷을 찍으세요";
+"Go to the screen you want a screenshot of, hold down the power button and the home button on your iPhone, at the same time." = "스크린샷을 찍고 싶은 화면으로 이동하고, iPhone의 전원 버튼과 홈 버튼을 동시에 길게 누르세요.";
+"Go to the screen you want a screenshot of, hold down the power button and the home button on your iPad, at the same time." = "스크린샷을 찍고 싶은 화면으로 이동하고, iPad의 전원 버튼과 홈 버튼을 동시에 길게 누르세요.";
+"That's it, your screenshot is now in your iPhone gallery!" = "좋아요, 이제 스크린샷이 iPhone 갤러리에 있습니다!";
+"That's it, your screenshot is now in your iPad gallery!" = "좋아요, 이제 스크린샷이 iPad 갤러리에 있습니다!";
+"Back to Issue" = "문제로 돌아가기";
+"Take screenshot" = "스크린샷 촬영";
+"Opening Gallery..." = "갤러리 여는 중...";
+"Sending Screenshot..." = "스크린샷 전송 중...";
+"Screenshot sent" = "스크린샷 전송됨";
+"Your message was not sent.Tap \"Try Again\" to send this message?" = "메시지가 전송되지 않았습니다. \"다시 시도\"를 탭하여 이 메시지를 전송하시겠습니까?";
+"How can we help?" = "무엇을 도와드릴까요?";
+"No faqs found in this section" = "이 영역에서 FAQ를 찾을 수 없음";
+"Could not fetch faqs" = "FAQ를 가져올 수 없음";
+"We could not fetch the required data" = "필요한 데이터를 가져올 수 없습니다";
+"FAQ" = "FAQ";
+"My Issues" = "내 문제";
+"Can't find what you were looking for?" = "찾고 계신 내용이 없나요?";
+"Add an Issue" = "문제 추가";
+"Enter your Details" = "세부정보를 입력하세요";
+"Thank you for reporting this issue." = "이 문제를 보고해주셔서 감사합니다.";
+"Thank you for reporting this issue. We have received it and will get back to you." = "이 문제를 보고해주셔서 감사합니다. 보고가 접수되었으며 곧 연락을 드리겠습니다.";
+"Sorry to hear that. Could you please tell us a little bit more about the problem you are facing?" = "문제가 발생했다니 죄송합니다. 발생한 문제에 대해 좀 더 자세히 설명해주시겠습니까?";
+"We're happy to help you!" = "기꺼이 도와드리겠습니다!";
+"We have received it and will get back to you." = "보고가 접수되었으며 곧 연락을 드리겠습니다.";
+"Could not send your issue" = "문제 전송 불가";
+"Please try again or check your network connection." = "다시 시도하거나 네트워크 연결을 확인하세요.";
+"We will only ask for your details when you report your first issue. For more details read our privacy policy at" = "첫 번째 문제를 보고하실 때만 저희가 세부정보를 묻습니다. 자세한 정보는 다음의 개인정보 보호정책을 참조하세요";
+"Attaching device information will give the developer details of your device to help solve your problem quicker."= "장치 정보를 첨부하면 개발자에게 장치의 세부정보가 전달되고 문제를 더 빨리 해결하는 데 도움이 됩니다.";
+"Describe your problem" = "문제를 설명해주세요";
+"Report Issue Text" = "문제를 설명해주세요";
+"Your Name" = "내 이름";
+"Your email address (optional)" = "내 이메일 주소(선택사항)";
+"Email invalid" = "잘못된 이메일";
+"Please provide a valid email address." = "올바른 이메일 주소를 입력하세요.";
+"Invalid Entry" = "잘못된 입력사항";
+"Please enter a brief description of the issue you are facing." = "발생한 문제에 대해 간략히 설명해주세요.";
+"Attach device information" = "장치 정보 첨부";
+"REPORT AN ISSUE" = "문제 보고";
+"Question" = "질문";
+"Was this helpful?" = "이 내용이 유용했나요?";
+"You found this helpful." = "이 내용은 유용했습니다.";
+"You didn't find this helpful." = "이 내용은 유용하지 않았습니다.";
+"Sending your issue..." = "문제 전송 중...";
+"Next" = "다음";
+"Try Again" = "다시 시도";
+"Cancel" = "취소";
+"REVIEW" = "리뷰";
+"Send" = "전송";
+"Change" = "변경";
+"You have answered: NO" = "내 답변: 아니요";
+"You have answered: YES" = "내 답변: 예";
+"Ok, attach" = "예, 첨부";
+"Learn how" = "방법 알아보기";
+"YES" = "예";
+"NO" = "아니요";
+"Accepted review request" = "리뷰 요청 수락함";
+"Messages" = "메시지";
+"SEND" = "전송";
+"Back" = "뒤로";
+"OK" = "확인";
+"Close" = "닫기";
+"Loading..." = "로드 중...";
+"Inbox" = "수신함";
+"Help" = "도움말";
+"Sending failed !" = "전송 실패!";
+"Screenshot could not be sent. Image is too large, try again with another image" = "스크린샷을 전송할 수 없습니다. 이미지가 너무 크기 때문에 다른 이미지로 다시 시도하세요";
+"Name invalid" = "잘못된 이름";
+"Please provide a name." = "이름을 입력하세요.";
+"New message from Support" = "지원팀이 보낸 새 메시지";
+"new messages from Support" = "개의 지원팀의 새 메시지";
+"No FAQs found" = "FAQ를 찾을 수 없음";

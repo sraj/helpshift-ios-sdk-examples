@@ -2,9 +2,8 @@
  HSLocalizable.strings
  Helpshift
  
- Created by Rhishikesh Joshi on 14/05/2013.
  Copyright (c) 2013 Helpshift,Inc., All rights reserved.
- */
+*/
 
 "Review our app" = "评价我们的应用程序";
 "Would you mind taking a moment to review our app? It won't take more than a minute. Thanks for your support!" = "你介意费时评价我们的应用程序吗？这不会超过一分钟。感谢你的支持！";
