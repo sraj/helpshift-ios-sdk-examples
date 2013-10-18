@@ -1,6 +1,6 @@
 /*
  *    Helpshift.h
- *    SDK version 3.1.2
+ *    SDK version 3.2.0
  *
  *    Get the documentation at http://www.helpshift.com/docs
  *
@@ -14,6 +14,18 @@ This document describes the API exposed by the Helpshift SDK (3.x) which the dev
 */
 
 typedef NSDictionary* (^metadataBlock)(void);
+
+
+// A Reserved key (HSIssueTagsKey) constant to be used with metadataBlock (of type NSDictionary) to pass NSArray (of type only NSStrings)
+// which get interpreted at server and added as Tags for the issue being reported.
+// If an object in NSArray is not of type NSString then the object will be removed from Tags and will not be added for the issue.
+//
+// Available in SDK version 3.2.0 or later
+// Example usage
+//    [Helpshift metadataWithBlock:^(void){
+//        return [NSDictionary dictionaryWithObjectsAndKeys:[NSArray arrayWithObjects:@"feedback", @"paid user",nil], HSIssueTagsKey, nil];
+//    }];
+extern NSString *const HSIssueTagsKey;
 
 @protocol HelpshiftDelegate;
 @interface Helpshift : NSObject <UIAlertViewDelegate>
