@@ -1,5 +1,5 @@
   
-Helpshift SDK 3.2.0 Release Notes (for iOS)
+Helpshift SDK 3.2.1 Release Notes (for iOS)
 -----------------------------------------------
 
 Helpshift is an embedded support desk for native apps.
@@ -13,6 +13,10 @@ Documentation for Installation and Usage Instructions:
 http://developers.helpshift.com/
 
 New features:
+3.2.1 Release Date: October 26, 2013
+       * Fixed UI issue that causes the view to cut off if UINavigationBar translucency is set to NO
+       * Bug fixes
+       * UI fixes
 3.2.0 Release Date: October 18, 2013
        * Added support for arm64 architecture
        * Added custom tags feature for tagging issues being reported
