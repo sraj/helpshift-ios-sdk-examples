@@ -17,27 +17,19 @@ static NSArray *hsFeatures = nil;
     if (hsFeatures == nil) {
         hsFeatures = [[NSArray alloc] initWithObjects:
                         [NSDictionary dictionaryWithObjectsAndKeys:
-                            @"You can use the showSupport: api call to provide a way for the user to invoke the purpose built help/support section in your app. This is the easiest approach to enable help in your app as it bundles all the capabilities of the Helpshift SDK in a simple and intuitive interface.", @"description",
-                            @"Show Support", @"title",
+                            @"You can use the showFAQs:withOptions: api call to show the Helpshift screen with only the faq sections with search with optional arguments, you can use this api. This screen will not show the issues reported by the user. If you do not want to pass any options then just pass nil which will take on the default options.", @"description",
+                            @"Help", @"title",
                             UIColorFromRGB(0xA7C5BD), @"bgcolor", nil],
                         [NSDictionary dictionaryWithObjectsAndKeys:
-                            @"You can use the reportIssue: api call to provide a way for the user to send feedback or report an issue directly to you. This has been provided if you want to embed a \"Send Feedback\" or \"Report an Issue\" action in your app and want to lead the user to this action directly without having to go to the FAQ and search/browse the FAQ before they can send you feedback.", @"description",
-                            @"Report Issue", @"title",
+                            @"You can use the showConversation:withOptions: api call to show the Helpshift conversation screen with optional arguments you will need to pass the name of the viewcontroller on which the conversation screen will show up and an options dictionary. If you do not want to pass any options then just pass nil which will take on the default options.", @"description",
+                            @"Contact Us", @"title",
                             UIColorFromRGB(0xE5DDCB), @"bgcolor",nil],
                         [NSDictionary dictionaryWithObjectsAndKeys:
-                            @"You can use the showInbox: api call to show the inbox of all the conversations between your customer and you. Any reply / message that an agent sends to the user will show as notification badges for each issue in the inbox.", @"description",
-                            @"Show Inbox", @"title",
-                            UIColorFromRGB(0xEB7B59), @"bgcolor", nil],
-                        [NSDictionary dictionaryWithObjectsAndKeys:
-                            @"You can use the showFAQs: api call to show the Helpshift support screen with only the FAQs. Users will be able to browse and search through all the FAQ sections.", @"description",
-                            @"Show All FAQs", @"title",
-                            UIColorFromRGB(0xCF4647), @"bgcolor", nil],
-                        [NSDictionary dictionaryWithObjectsAndKeys:
-                            @"You can use showFAQSection:withController: api call to show faqs from a particular FAQ section. You will need the publish-id of the FAQ section in this case. The publish-id will be the id of the FAQ section which is shown under FAQs (_yourcompany_.helpshift.com/admin/faq/).", @"description",
+                            @"You can use showFAQSection:withController:withOptions: api call To show the Helpshift screen for showing a particular faq section you need to pass the publish-id of the faq section and the name of the viewcontroller on which the faq section screen will show up. For example from inside a viewcontroller you can call the Helpshift faq section screen by passing the argument “self” for the viewController parameter. If you do not want to pass any options then just pass nil which will take on the default options.", @"description",
                             @"Show FAQ Section", @"title",
                             UIColorFromRGB(0x524656), @"bgcolor", nil],
-                      [NSDictionary dictionaryWithObjectsAndKeys:
-                            @"You can use the showFAQ:withController: api call to show a single faq question. You will need the publish-id of the FAQ. The publish-id will be the id of the FAQ which is shown under FAQs (_yourcompany_.helpshift.com/admin/faq/). ", @"description",
+                        [NSDictionary dictionaryWithObjectsAndKeys:
+                            @"You can use the showSingleFAQ:withController:withOptions: api call To show the Helpshift screen for showing a single faq you need to pass the publish-id of the faq and the name of the viewcontroller on which the faq screen will show up. For example from inside a viewcontroller you can call the Helpshift faq section screen by passing the argument “self” for the viewController parameter. If you do not want to pass any options then just pass nil which will take on the default options.", @"description",
                             @"Show Single FAQ", @"title",
                             UIColorFromRGB(0xA7C5BD), @"bgcolor", nil],
                       nil];
@@ -92,25 +84,19 @@ static NSArray *hsFeatures = nil;
 - (void)btnSupportClick:(id)sender {
     UIButton *button = (UIButton *) sender;
     switch (button.tag) {
-        case HS_SHOW_SUPPORT:
-            [[Helpshift sharedInstance] showSupport:self];
+        case HS_SHOW_HELP:
+            [[Helpshift sharedInstance] showFAQs:self withOptions:nil];
             break;
-        case HS_SHOW_REPORTISSUE:
-            [[Helpshift sharedInstance] reportIssue:self];
-            break;
-        case HS_SHOW_FAQS:
-            [[Helpshift sharedInstance] showFAQs:self];
-            break;
-        case HS_SHOW_INBOX:
-            [[Helpshift sharedInstance] showInbox:self];
+        case HS_SHOW_CONTACTUS:
+            [[Helpshift sharedInstance] showConversation:self withOptions:nil];
             break;
         case HS_SHOW_FAQSECTION:
             //The PUBLISH-ID will be the id of the FAQ section which is shown under FAQs (_yourcompany_.helpshift.com/admin/faq/).
-            [[Helpshift sharedInstance] showFAQSection:@"<PUBLISH-ID>" withController:self];
+            [[Helpshift sharedInstance] showFAQSection:@"<PUBLISH-ID>" withController:self withOptions:nil];
             break;
         case HS_SHOW_SINGLEFAQ:
             //The PUBLISH-ID will be the id of the FAQ which is shown under FAQs (_yourcompany_.helpshift.com/admin/faq/)
-            [[Helpshift sharedInstance] showFAQ:@"<PUBLISH-ID>" withController:self];
+            [[Helpshift sharedInstance] showSingleFAQ:@"<PUBLISH-ID>" withController:self withOptions:nil];
             break;
         default:
             break;

@@ -21,9 +21,9 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     
-    //Helpshift::Initialize Helpshift by calling the installForAppID:domainName:apiKey: method inside application:didFinishLaunchingWithOptions: method [http://www.helpshift.com/docs/howto/ios/v2.x/#authentication]
-    //[Helpshift installForAppID:@"<YOUR_APP_ID>"  domainName:@"<YOUR_COMPANY>.helpshift.com" apiKey:@"<YOUR_API_KEY>"];
-    
+    //Helpshift::Initialize Helpshift by calling the installForApiKey:domainName:appID: method inside application:didFinishLaunchingWithOptions: method [http://developers.helpshift.com/ios/getting-started/#initializing]
+    //[Helpshift installForApiKey:@"<YOUR_API_KEY>"  domainName:@"<YOUR_COMPANY>.helpshift.com" appID:@"<YOUR_APP_ID>"];
+
     //Create Airship options dictionary and add the required UIApplication launchOptions
     NSMutableDictionary *takeOffOptions = [NSMutableDictionary dictionary];
     [takeOffOptions setValue:launchOptions forKey:UAirshipTakeOffOptionsLaunchOptionsKey];
@@ -56,7 +56,7 @@
     return YES;
 }
 
-//Integrating Urban Airship for Helpshift Notifications [http://www.helpshift.com/docs/howto/ios/v2.x/#urban-airship]
+//Integrating Urban Airship for Helpshift Notifications [http://developers.helpshift.com/ios/notifications/#configure-urban-airship]
 - (void)application:(UIApplication *)app didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken
 {
 
@@ -72,7 +72,7 @@
 {
     //Helpshift::handle notification
     if ([[userInfo objectForKey:@"origin"] isEqualToString:@"helpshift"]) {
-        [[Helpshift sharedInstance] handleNotification:userInfo withController:self.window.rootViewController];
+        [[Helpshift sharedInstance] handleRemoteNotification:userInfo withController:self.window.rootViewController];
     }
 }
 

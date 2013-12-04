@@ -17,9 +17,9 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     
-    //Helpshift::Initialize Helpshift by calling the installForAppID:domainName:apiKey: method inside application:didFinishLaunchingWithOptions: method [http://www.helpshift.com/docs/howto/ios/v2.x/#authentication]
-    //[Helpshift installForAppID:@"<YOUR_APP_ID>"  domainName:@"<YOUR_COMPANY>.helpshift.com" apiKey:@"<YOUR_API_KEY>"];
-    
+    //Helpshift::Initialize Helpshift by calling the installForApiKey:domainName:appID: method inside application:didFinishLaunchingWithOptions: method [http://developers.helpshift.com/ios/getting-started/#initializing]
+    //[Helpshift installForApiKey:@"<YOUR_API_KEY>"  domainName:@"<YOUR_COMPANY>.helpshift.com" appID:@"<YOUR_APP_ID>"];
+
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
         self.viewController = [[[HSDViewController alloc] initWithNibName:@"HSDViewController_iPhone" bundle:nil] autorelease];
     } else {
@@ -35,7 +35,7 @@
         NSDictionary* userInfo = [launchOptions objectForKey:UIApplicationLaunchOptionsRemoteNotificationKey];
         if (userInfo != nil && [[userInfo objectForKey:@"origin"] isEqualToString:@"helpshift"])
         {
-            [[Helpshift sharedInstance] handleNotification:userInfo withController:self.window.rootViewController];
+            [[Helpshift sharedInstance] handleRemoteNotification:userInfo withController:self.window.rootViewController];
         }
     }
     
@@ -43,18 +43,21 @@
     return YES;
 }
 
-//Integrating Helpshift push notification service [http://www.helpshift.com/docs/howto/ios/v2.x/#hs-push-notif]
+//Integrating Helpshift push notification service
+//[http://developers.helpshift.com/ios/notifications/#push-via-helpshift]
 - (void)application:(UIApplication *)app didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken
 {
     //Helpshift::register device token with Helpshift for Push Notification
     [[Helpshift sharedInstance] registerDeviceToken:deviceToken];
 }
 
+//Configure the Helpshift iOS SDK to handle notifications
+//[http://developers.helpshift.com/ios/notifications/#configure-helpshift-sdk]
 - (void) application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo
 {
     //Helpshift::handle notification from APN
     if ([[userInfo objectForKey:@"origin"] isEqualToString:@"helpshift"]) {
-        [[Helpshift sharedInstance] handleNotification:userInfo withController:self.window.rootViewController];
+        [[Helpshift sharedInstance] handleRemoteNotification:userInfo withController:self.window.rootViewController];
     }
 }
 

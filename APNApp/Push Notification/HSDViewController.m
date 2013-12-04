@@ -21,7 +21,7 @@
 }
 
 - (IBAction)btnHelpClick:(id)sender {
-    [[Helpshift sharedInstance] showSupport:self];
+    [[Helpshift sharedInstance] showFAQs:self withOptions:nil];
 }
 
 - (void)didReceiveMemoryWarning

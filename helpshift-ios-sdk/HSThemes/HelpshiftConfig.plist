@@ -63,7 +63,7 @@
 		<key>FAQ no button color</key>
 		<string></string>
 	</dict>
-	<key>Notification Badge</key>
+	<key>Message Retry Badge</key>
 	<dict>
 		<key>Text color</key>
 		<string></string>

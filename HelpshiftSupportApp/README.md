@@ -6,7 +6,7 @@ Readme for Full Support iOS App
 2. Initialize Helpshift library by calling the method
 
    ```
-   	[Helpshift installForAppID:@"<YOUR_APP_ID>"  domainName:@"<YOUR_COMPANY>.helpshift.com" apiKey:@"<YOUR_API_KEY>"];
+      [Helpshift installForApiKey:@"<YOUR_API_KEY>"  domainName:@"<YOUR_COMPANY>.helpshift.com" appID:@"<YOUR_APP_ID>"];
    ```
    inside ***application:didFinishLaunchingWithOptions:*** method (ideally at the top)
    for more information [refer doc](http://developers.helpshift.com/ios/getting-started/#initializing)

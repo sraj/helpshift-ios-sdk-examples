@@ -16,9 +16,9 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     
-    //Helpshift::Initialize Helpshift by calling the installForAppID:domainName:apiKey: method inside application:didFinishLaunchingWithOptions: method [http://www.helpshift.com/docs/howto/ios/v2.x/#authentication]
-    //[Helpshift installForAppID:@"<YOUR_APP_ID>"  domainName:@"<YOUR_COMPANY>.helpshift.com" apiKey:@"<YOUR_API_KEY>"];
-    
+    //Helpshift::Initialize Helpshift by calling the installForApiKey:domainName:appID: method inside application:didFinishLaunchingWithOptions: method [http://developers.helpshift.com/ios/getting-started/#initializing]
+    //[Helpshift installForApiKey:@"<YOUR_API_KEY>"  domainName:@"<YOUR_COMPANY>.helpshift.com" appID:@"<YOUR_APP_ID>"];
+
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
         self.viewController = [[[HSDViewController alloc] initWithNibName:@"HSDViewController_iPhone" bundle:nil] autorelease];
     } else {
