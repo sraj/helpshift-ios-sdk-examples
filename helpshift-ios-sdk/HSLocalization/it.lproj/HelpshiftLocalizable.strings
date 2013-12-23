@@ -1,15 +1,15 @@
 /* 
-  HSLocalizable.strings
+  HelpshiftLocalizable.strings
   Helpshift
 
   Copyright (c) 2013 Helpshift,Inc., All rights reserved.
 */
 
-"Review our app" = "Recensisci la nostra app";
-"Would you mind taking a moment to review our app? It won't take more than a minute. Thanks for your support!" = "Ti va di dedicare qualche istante per recensire la nostra app? Non richiederà più di un minuto. Grazie per il tuo sostegno!";
-"Never ask me again" = "Non chiedermelo più";
-"Rate and Review" = "Valuta e recensisci";
-"Remind me later" = "Ricordamelo più tardi";
+
+"Rate our App" = "Valuta la nostra App";
+"If you love our app, please take a moment to rate it in the App Store" = "Se ti piace la nostra app, per favore dedicale un momento per valutarla nell'App Store";
+"Rate" = "Valuta";
+"Send Feedback" = "Invia Feedback";
 "No Internet!" = "Nessuna connessione Internet!";
 "No working Internet connection is found." = "Nessuna connessione Internet trovata.";
 "Take a screenshot on your iPhone" = "Acquisisci schermata sul tuo iPhone";
@@ -66,6 +66,7 @@
 "Conversation" = "Conversazione";
 "Name" = "Nome";
 "Email (optional)" = "E-mail (opzionale)";
+"Email" = "E-mail";
 "Sending your message..." = "Invio messaggio...";
 "Message send failure." = "Invio del messaggio fallito.";
 "Please check your network connection and try again." = "Controlla la tua connessione di rete e riprova.";
@@ -80,3 +81,4 @@
 "Thanks for contacting us." = "Grazie per averci contattato.";
 "Your message has been received." = "Il tuo messaggio è stato ricevuto.";
 "Your message has been received. Thanks for contacting us!" = "Il tuo messaggio è stato ricevuto. Grazie per averci contattato!";
+"What else can we help you with?" = "Possiamo aiutarti con qualche altra cosa?";

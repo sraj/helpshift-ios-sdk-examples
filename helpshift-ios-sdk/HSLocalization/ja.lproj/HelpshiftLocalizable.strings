@@ -1,15 +1,15 @@
 /*
- HSLocalizable.strings
+ HelpshiftLocalizable.strings
  Helpshift
  
  Copyright (c) 2013 Helpshift,Inc., All rights reserved.
 */
 
-"Review our app" = "アプリを評価";
-"Would you mind taking a moment to review our app? It won't take more than a minute. Thanks for your support!" = "少々お時間を割いてアプリを評価いただけませんか?1分もかかりません。ご協力ありがとうございます!";
-"Never ask me again" = "二度ときかない";
-"Rate and Review" = "評価とレビューを残す";
-"Remind me later" = "後で通知";
+
+"Rate our App" = "アプリを評価";
+"If you love our app, please take a moment to rate it in the App Store" = "アプリをお気に召したら、少々お時間を割いてApp Storeで評価してください";
+"Rate" = "評価";
+"Send Feedback" = "フィードバック送信";
 "No Internet!" = "インターネットがありません！";
 "No working Internet connection is found." = "インターネット接続がありません。";
 "Take a screenshot on your iPhone" = "iPhoneでスクリーンショットを撮影";
@@ -66,6 +66,7 @@
 "Conversation" = "会話";
 "Name" = "氏名";
 "Email (optional)" = "メール（任意）";
+"Email" = "メール";
 "Sending your message..." = "メッセージ送信中です...";
 "Message send failure." = "メッセージ送信に失敗しました。";
 "Please check your network connection and try again." = "ネットワーク接続をご確認の上、再試行してください。";
@@ -80,3 +81,4 @@
 "Thanks for contacting us." = "ご連絡ありがとうございます。";
 "Your message has been received." = "メッセージが受領されました。";
 "Your message has been received. Thanks for contacting us!" = "メッセージを受け取りました。ご連絡ありがとうございます！";
+"What else can we help you with?" = "他にお手伝いできることはありますか?";

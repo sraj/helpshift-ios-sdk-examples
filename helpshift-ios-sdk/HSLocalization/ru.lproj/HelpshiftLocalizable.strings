@@ -1,15 +1,15 @@
 /* 
-  HSLocalizable.strings
+  HelpshiftLocalizable.strings
   Helpshift
 
   Copyright (c) 2013 Helpshift, Inc., All rights reserved.
 */
 
-"Review our app" = "Оценить приложение";
-"Would you mind taking a moment to review our app? It won't take more than a minute. Thanks for your support!" = "Будьте добры, уделите минуту обзору нашего приложения. Это не займёт больше минуты. Спасибо за поддержку!";
-"Never ask me again" = "Больше не спрашивать";
-"Rate and Review" = "Оценить и дать отзыв";
-"Remind me later" = "Напомнить позже";
+
+"Rate our App" = "Оцените наше приложение";
+"If you love our app, please take a moment to rate it in the App Store" = "Если приложение нравится, пожалуйста, оцените его в App Store";
+"Rate" = "Оценить";
+"Send Feedback" = "Отправить отзыв";
 "No Internet!" = "Нет Интернета!";
 "No working Internet connection is found." = "Не обнаружено рабочего подключения к Интернету!";
 "Take a screenshot on your iPhone" = "Снять скриншот на свой iPhone";
@@ -66,6 +66,7 @@
 "Conversation" = "Диалог";
 "Name" = "Имя";
 "Email (optional)" = "Эл. почта (необязательно)";
+"Email" = "Эл. почта";
 "Sending your message..." = "Отправка сообщения...";
 "Message send failure." = "Ошибка отправки сообщения.";
 "Please check your network connection and try again." = "Проверьте сетевое подключение и повторите попытку.";
@@ -80,3 +81,4 @@
 "Thanks for contacting us." = "Спасибо за обращение к нам.";
 "Your message has been received." = "Ваше сообщение получено.";
 "Your message has been received. Thanks for contacting us!" = "Ваше сообщение получено. Спасибо за обращение к нам.";
+"What else can we help you with?" = "Чем еще мы можем вам помочь?";

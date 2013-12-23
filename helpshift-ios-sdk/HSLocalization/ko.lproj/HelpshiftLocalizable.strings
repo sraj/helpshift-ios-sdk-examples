@@ -1,15 +1,15 @@
 /*
- HSLocalizable.strings
+ HelpshiftLocalizable.strings
  Helpshift
  
  Copyright (c) 2013 Helpshift,Inc., All rights reserved.
 */
 
-"Review our app" = "앱 리뷰하기";
-"Would you mind taking a moment to review our app? It won't take more than a minute. Thanks for your support!" = "잠시 시간을 내어 앱의 리뷰를 남겨주시겠습니까? 1분도 채 걸리지 않을 것입니다. 도와주셔서 감사합니다!";
-"Never ask me again" = "다시 묻지 않음";
-"Rate and Review" = "평가 및 리뷰";
-"Remind me later" = "나중에 알림";
+
+"Rate our App" = "앱 평가";
+"If you love our app, please take a moment to rate it in the App Store" = "앱이 마음에 드시면 잠시 시간을 내어 App Store에서 평가해주세요";
+"Rate" = "평가";
+"Send Feedback" = "피드백 전송";
 "No Internet!" = "인터넷 연결 없음!";
 "No working Internet connection is found." = "정상적인 인터넷 연결을 찾을 수 없습니다.";
 "Take a screenshot on your iPhone" = "iPhone에서 스크린샷을 찍으세요";
@@ -66,6 +66,7 @@
 "Conversation" = "대화";
 "Name" = "이름";
 "Email (optional)" = "이메일(선택사항)";
+"Email" = "이메일";
 "Sending your message..." = "메시지 전송 중...";
 "Message send failure." = "메시지 전송 실패.";
 "Please check your network connection and try again." = "네트워크 연결을 확인하고 다시 시도하세요.";
@@ -80,3 +81,4 @@
 "Thanks for contacting us." = "연락해주셔서 감사합니다.";
 "Your message has been received." = "메시지가 수신되었습니다.";
 "Your message has been received. Thanks for contacting us!" = "메시지가 수신되었습니다. 연락해주셔서 감사합니다!";
+"What else can we help you with?" = "또 도와드릴 것이 있습니까?";

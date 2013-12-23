@@ -1,5 +1,5 @@
   
-Helpshift SDK 4.0.0 Release Notes (for iOS)
+Helpshift SDK 4.1.0 Release Notes (for iOS)
 -----------------------------------------------
 
 Helpshift is an embedded support desk for native apps.
@@ -13,6 +13,15 @@ Documentation for Installation and Usage Instructions:
 http://developers.helpshift.com/
 
 New features:
+4.1.0 Release Date: December 23, 2013
+       * Conversation forwarding feature added to SDK
+       * New Rate/Review & Feedback feature
+       * Now using CFBundleShortVersionString instead of CFBundleVersion for app version
+       * Added support for background image in HelpshiftConfig.plist
+       * Fixed bugs related to getNotificationCountRemote being called from inside helpshiftSessionHasEnded
+       * Improved UX for resolution rejected by user for resolved conversations
+       * Bug fixes
+       * UI fixes
 4.0.0 Release Date: December 4, 2013
        * Multiple issues and inbox is no longer supported
        * The conversation interface has been unified into a single channel

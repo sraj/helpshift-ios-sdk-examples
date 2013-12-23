@@ -10,13 +10,15 @@
 		<string></string>
 		<key>Background color</key>
 		<string>383838</string>
+		<key>Background image</key>
+		<string></string>
 		<key>Content background color</key>
 		<string>1a1a1a</string>
 		<key>Separator line color</key>
 		<string>404040</string>
 		<key>Text color</key>
 		<string>fafafa</string>
-		<key>Report issue button color</key>
+		<key>Contact us button color</key>
 		<string>3396ff</string>
 	</dict>
 	<key>Navigation Bar</key>

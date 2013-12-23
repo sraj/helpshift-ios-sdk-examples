@@ -1,15 +1,15 @@
 /*
- HSLocalizable.strings
+ HelpshiftLocalizable.strings
  Helpshift
  
  Copyright (c) 2013 Helpshift,Inc., All rights reserved.
 */
 
-"Review our app" = "评价我们的应用程序";
-"Would you mind taking a moment to review our app? It won't take more than a minute. Thanks for your support!" = "你介意费时评价我们的应用程序吗？这不会超过一分钟。感谢你的支持！";
-"Never ask me again" = "不要再问我";
-"Rate and Review" = "评分并评价";
-"Remind me later" = "稍后提醒我";
+
+"Rate our App" = "给应用评分";
+"If you love our app, please take a moment to rate it in the App Store" = "如果你喜欢我们的应用，请花点时间在App Store给它评个分";
+"Rate" = "评分";
+"Send Feedback" = "发送反馈";
 "No Internet!" = "无网络！";
 "No working Internet connection is found." = "未发现网络连接。";
 "Take a screenshot on your iPhone" = "在你的iPhone上捕获屏幕截图";
@@ -66,6 +66,7 @@
 "Conversation" = "会话";
 "Name" = "姓名";
 "Email (optional)" = "电子邮件(可选)";
+"Email" = "电子邮件";
 "Sending your message..." = "正在发送你的信息...";
 "Message send failure." = "信息发送失败。";
 "Please check your network connection and try again." = "请检查你的网络连接并重试。";
@@ -80,3 +81,4 @@
 "Thanks for contacting us." = "感谢联系我们。";
 "Your message has been received." = "你的信息已收到。";
 "Your message has been received. Thanks for contacting us!" = "你的信息已收到。感谢联系我们！";
+"What else can we help you with?" = "还有其他需要帮助的吗?";
