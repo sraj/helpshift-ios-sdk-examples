@@ -2,7 +2,7 @@
   HelpshiftLocalizable.strings
   Helpshift
 
-  Copyright (c) 2013 Helpshift, Inc., All rights reserved.
+  Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 */
 
 
@@ -24,21 +24,21 @@
 "Screenshot sent" = "Скриншот отправлен";
 "Your message was not sent.Tap \"Try Again\" to send this message?" = "Ваше сообщение не отправлено. Повторить попытку отправки сообщения?";
 "No faqs found in this section" = "В этом разделе нет вопросов-ответов";
-"Could not fetch faqs" = "Невозможно вызвать вопросы-ответы";
-"We could not fetch the required data" = "Мы не могли определить необходимые данные";
+"Could not fetch faqs" = "Невозможно загрузить вопросы-ответы";
+"We could not fetch the required data" = "Мы не смогли загрузить необходимые данные";
 "FAQ" = "Вопрос-ответ";
-"Can't find what you were looking for?" = "Не нашли того, чего искали?";
+"Can't find what you were looking for?" = "Не нашли нужного ответа?";
 "Sorry to hear that. Could you please tell us a little bit more about the problem you are facing?" = "Жаль об этом слышать. Не могли бы вы рассказать немного подробнее о проблеме, с которой столкнулись?";
 "We're happy to help you!" = "Мы рады вам помочь!";
-"Describe your problem" = "Опишите проблему";
-"Email invalid" = "Недействительная эл.почта";
-"Please provide a valid email address." = "Введите действительный адрес эл.почты.";
-"Invalid Entry" = "Недействительная запись";
+"Describe your problem" = "Найти решение";
+"Email invalid" = "Некорректная эл.почта";
+"Please provide a valid email address." = "Введите корректный адрес эл.почты.";
+"Invalid Entry" = "Некорректная запись";
 "Please enter a brief description of the issue you are facing." = "Пожалуйста, введите краткое описание проблемы, с которой вы столкнулись.";
 "Question" = "Вопрос";
-"Was this helpful?" = "Было полезно?";
-"You found this helpful." = "Вы нашли это полезным.";
-"You didn't find this helpful." = "Вы не нашли это полезным.";
+"Was this helpful?" = "Это было полезно?";
+"You found this helpful." = "Вы считаете это полезным.";
+"You didn't find this helpful." = "Вы не считаете это полезным.";
 "Try Again" = "Повторить попытку";
 "Cancel" = "Отмена";
 "REVIEW" = "ОЦЕНИТЬ";
@@ -46,7 +46,7 @@
 "Change" = "Изменить";
 "You have answered: NO" = "Ваш ответ: НЕТ";
 "You have answered: YES" = "Ваш ответ: ДА";
-"Ok, attach" = "OK, прикрепить";
+"Ok, attach" = "Прикрепить";
 "Learn how" = "Узнать как";
 "YES" = "ДА";
 "NO" = "НЕТ";
@@ -56,29 +56,28 @@
 "Close" = "Закрыть";
 "Loading..." = "Идёт загрузка...";
 "Help" = "Справка";
-"Sending failed !" = "Письмо не удалось !";
-"Screenshot could not be sent. Image is too large, try again with another image" = "Скриншот не может быть отправлено. Изображение слишком большой, попробуйте еще раз с другим изображением";
-"Name invalid" = "Имя недействительных";
+"Sending failed !" = "Отправка не удалась!";
+"Screenshot could not be sent. Image is too large, try again with another image" = "Скриншот не может быть отправлен. Изображение слишком большое, попробуйте еще раз с другим изображением";
+"Name invalid" = "Некорректное имя";
 "Please provide a name." = "Пожалуйста, укажите имя.";
-"New message from Support" = "Новое послание от поддержки";
-"new messages from Support" = "новых сообщениях от поддержки";
-"No FAQs found" = "Не часто задаваемые вопросы не найдены";
+"New message from Support" = "Новое сообщение от поддержки";
+"new messages from Support" = "новых сообщений от поддержки";
+"No FAQs found" = "Не найдено ни одного ответа";
 "Conversation" = "Диалог";
 "Name" = "Имя";
 "Email (optional)" = "Эл. почта (необязательно)";
-"Email" = "Эл. почта";
 "Sending your message..." = "Отправка сообщения...";
 "Message send failure." = "Ошибка отправки сообщения.";
 "Please check your network connection and try again." = "Проверьте сетевое подключение и повторите попытку.";
-"CONTACT US" = "СВЯЖИТЕСЬ С НАМИ";
+"CONTACT US" = "НАПИШИТЕ НАМ";
 "Back" = "Назад";
-"Thanks for messaging us! Did we answer all your questions?" = "Спасибо за обращение к нам. Мы ответили на все ваши вопросы?";
+"Thanks for messaging us! Did we answer all your questions?" = "Спасибо за обращение. Мы смогли Вам помочь?";
 "YES, THANKS!" = "ДА, СПАСИБО!";
 "You ended the conversation above." = "Вы завершили диалог.";
 "START A NEW CONVERSATION" = "НАЧАТЬ НОВЫЙ ДИАЛОГ";
 "New Conversation" = "Новый диалог";
 "What's on your mind?" = "О чем вы хотите спросить?";
-"Thanks for contacting us." = "Спасибо за обращение к нам.";
+"Thanks for contacting us." = "Спасибо за обращение.";
 "Your message has been received." = "Ваше сообщение получено.";
 "Your message has been received. Thanks for contacting us!" = "Ваше сообщение получено. Спасибо за обращение к нам.";
 "What else can we help you with?" = "Чем еще мы можем вам помочь?";

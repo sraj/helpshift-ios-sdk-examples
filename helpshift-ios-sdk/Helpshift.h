@@ -1,6 +1,6 @@
 /*
  *    Helpshift.h
- *    SDK version 4.1.0
+ *    SDK version 4.2.0
  *
  *    Get the documentation at http://www.helpshift.com/docs
  *
@@ -16,16 +16,39 @@
 typedef NSDictionary * (^metadataBlock)(void);
 
 
+// A Reserved key (HSCustomMetadataKey) constant to be used in options dictionary of showFAQs, showConversation, showFAQSection, showSingleFAQ to
+// provide a dictionary for custom data to be attached along with new conversations.
+//
+// If you want to attach custom data along with new conversation, use this constant key and a dictionary value containing the meta data key-value pairs
+// and pass it in withOptions param before calling any of the 4 support APIs.
+//
+// Available in SDK version 4.2.0 or later
+//
+// Example usages:
+//  NSDictionary *metaDataWithTags = @{@"usertype": @"paid", @"level":@"7", @"score":@"12345", HSTagsKey:@[@"feedback",@"paid user",@"v4.1"]};
+//  [[Helpshift sharedInstance] showFAQs:self withOptions:@{@"gotoConversationAfterContactUs":@"YES", HSCustomMetadataKey: metaDataWithTags}];
+//
+//  NSDictionary *metaData = @{@"usertype": @"paid", @"level":@"7", @"score":@"12345"]};
+//  [[Helpshift sharedInstance] showConversation:self withOptions:@{HSCustomMetadataKey: metaData}];
+//
+extern NSString *const HSCustomMetadataKey;
+
+
 // A Reserved key (HSTagsKey) constant to be used with metadataBlock (of type NSDictionary) to pass NSArray (of type only NSStrings)
 // which get interpreted at server and added as Tags for the issue being reported.
 // If an object in NSArray is not of type NSString then the object will be removed from Tags and will not be added for the issue.
 //
 // Available in SDK version 3.2.0 or later
-// Example usage
+// Example usage 1:
 //    [Helpshift metadataWithBlock:^(void){
 //        return [NSDictionary dictionaryWithObjectsAndKeys:[NSArray arrayWithObjects:@"feedback", @"paid user",nil], HSTagsKey, nil];
 //    }];
+// Example usage 2 (Available in SDK version 4.2.0 or later):
+//    NSDictionary *metaData = @{@"usertype": @"paid", @"level":@"7", @"score":@"12345", HSTagsKey:@[@"feedback",@"paid user",@"v4.1"]};
+//    [[Helpshift sharedInstance] showConversation:self withOptions:@{HSCustomMetadataKey: metaData}];
+//
 extern NSString *const HSTagsKey;
+
 
 @protocol HelpshiftDelegate;
 @interface Helpshift : NSObject <UIAlertViewDelegate>
@@ -38,7 +61,7 @@ extern NSString *const HSTagsKey;
 /** Initialize helpshift support
  *
  * When initializing Helpshift you must pass these three tokens. You initialize Helpshift by adding the following lines in the implementation file for your app delegate, ideally at the top of application:didFinishLaunchingWithOptions. If you use this api to initialize helpshift support, in-app notifications will be enabled by default.
- * In-app notifications are banner like notifications shown by the Helpshift SDK to alert the user of any updates to the reported issues.
+ * In-app notifications are banner like notifications shown by the Helpshift SDK to alert the user of any updates to an ongoing conversation.
  * If you want to disable the in-app notifications please refer to the installForAppID:domainName:apiKey:withOptions: api
  *
  *  @param apiKey This is your developer API Key
@@ -56,7 +79,7 @@ extern NSString *const HSTagsKey;
  * @param apiKey This is your developer API Key
  * @param domainName This is your domain name without any http:// or forward slashes
  * @param appID This is the unique ID assigned to your app
- * @param withOptions This is the dictionary which contains additional configuration options for the HelpshiftSDK. Currently we support the "enableInAppNotification" as the only available option. Possible values are <"YES"/"NO">. If you set the flag to "YES", the helpshift SDK will show notifications similar to the banner notifications supported by Apple Push notifications. These notifications will alert the user of any updates to reported issues. If you set the flag to "NO", the in-app notifications will be disabled.
+ * @param withOptions This is the dictionary which contains additional configuration options for the HelpshiftSDK. Currently we support the "enableInAppNotification" as the only available option. Possible values are <"YES"/"NO">. If you set the flag to "YES", the helpshift SDK will show notifications similar to the banner notifications supported by Apple Push notifications. These notifications will alert the user of any updates to ongoing conversations. If you set the flag to "NO", the in-app notifications will be disabled.
  *
  * @available Available in SDK version 4.0.0 or later
  */
@@ -86,7 +109,7 @@ extern NSString *const HSTagsKey;
 
 /** Show the support screen with only the faqs (with Optional Arguments)
  *
- * To show the Helpshift screen with only the faq sections with search with optional arguments, you can use this api. This screen will not show the issues reported by the user. If you do not want to pass any options then just pass nil which will take on the default options.
+ * To show the Helpshift screen with only the faq sections with search with optional arguments, you can use this api. If you do not want to pass any options then just pass nil which will take on the default options.
  *
  * @param viewController viewController on which the helpshift faqs screen will show up.
  * @param optionsDictionary the dictionary which will contain the arguments passed to the Helpshift faqs screen session (that will start with this method call).
@@ -157,9 +180,9 @@ extern NSString *const HSTagsKey;
 
 + (void) leaveBreadCrumb:(NSString *)breadCrumbString;
 
-/** Provide a block which returns a dictionary for custom meta data to be attached along with reported issues
+/** Provide a block which returns a dictionary for custom meta data to be attached along with new conversations
  *
- * If you want to attach custom data along with any reported issues, use this api to provide a block which accepts zero arguments and returns an NSDictionary containing the meta data key-value pairs. Everytime an issue is reported, the SDK will call this block and attach the returned meta data dictionary along with the reported issue. Ideally this metaDataBlock should be provided before the user can file an issue.
+ * If you want to attach custom data along with any new conversation, use this api to provide a block which accepts zero arguments and returns an NSDictionary containing the meta data key-value pairs. Everytime an issue is reported, the SDK will call this block and attach the returned meta data dictionary along with the reported issue. Ideally this metaDataBlock should be provided before the user can file an issue.
  *
  *  @param metadataBlock a block variable which accepts zero arguments and returns an NSDictionary.
  *
@@ -168,10 +191,10 @@ extern NSString *const HSTagsKey;
 
 + (void) setMetadataBlock:(metadataBlock)metadataBlock;
 
-/** Get the notification count for replies to reported issues.
+/** Get the notification count for replies to new conversations.
  *
  *
- * If you want to show your user notifications for replies on the issues posted, you can get the notification count asynchronously by implementing the HelpshiftDelegate in your respective .h and .m files.
+ * If you want to show your user notifications for replies on any ongoing conversation, you can get the notification count asynchronously by implementing the HelpshiftDelegate in your respective .h and .m files.
  * Use the following method to set the delegate, where self is the object implementing the delegate.
  * [[Helpshift sharedInstance] setDelegate:self];
  * Now you can call the method
@@ -267,7 +290,7 @@ extern NSString *const HSTagsKey;
 @protocol HelpshiftDelegate <NSObject>
 
 /** Delegate method call that should be implemented if you are calling getNotificationCountFromRemote:YES
- * @param count Returns the number of issues with unread messages.
+ * @param count Returns the number of unread messages for the ongoing conversation
  *
  * @available Available in SDK version 4.0.0 or later
  */
