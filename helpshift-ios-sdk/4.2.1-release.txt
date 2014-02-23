@@ -1,5 +1,5 @@
   
-Helpshift SDK 4.2.0 Release Notes (for iOS)
+Helpshift SDK 4.2.1 Release Notes (for iOS)
 -----------------------------------------------
 
 Helpshift is an embedded support desk for native apps.
@@ -13,6 +13,8 @@ Documentation for Installation and Usage Instructions:
 http://developers.helpshift.com/
 
 New features:
+4.2.1 Release Date: February 23, 2014
+       * Fixed some critical crashes (Crash during screenshot attach, FAQ mark helpful/unhelpful and others).
 4.2.0 Release Date: February 3, 2014
        * Added support for fullscreen and formsheet modal presentation styles on iPad
        * Added Turkish translations
