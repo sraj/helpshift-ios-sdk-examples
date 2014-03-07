@@ -1,6 +1,6 @@
 /*
  *    Helpshift.h
- *    SDK version 4.2.1
+ *    SDK version 4.3.0
  *
  *    Get the documentation at http://www.helpshift.com/docs
  *
@@ -93,6 +93,17 @@ extern NSString *const HSTagsKey;
  * @available Available in SDK version 1.0.0 or later
  */
 + (Helpshift *) sharedInstance;
+
+/** To pause and restart the display of inapp notification
+ *
+ * When this method is called with boolean value YES, inapp notifications are paused and not displayed.
+ * To restart displaying inapp notifications pass the boolean value NO.
+ *
+ * @param pauseInApp the boolean value to pause/restart inapp nofitications
+ *
+ * @available Available in SDK version 4.3.0 or later
+ */
++ (void) pauseDisplayOfInAppNotification:(BOOL)pauseInApp;
 
 /** Show the helpshift conversation screen (with Optional Arguments)
  *
@@ -285,6 +296,7 @@ extern NSString *const HSTagsKey;
  */
 - (void) clearBreadCrumbs;
 
+
 @end
 
 @protocol HelpshiftDelegate <NSObject>
@@ -308,4 +320,10 @@ extern NSString *const HSTagsKey;
 @optional
 - (void) helpshiftSessionHasEnded;
 
+/** Optional delegate method that is called when a Helpshift inapp notification arrives and is shown
+ *  @param count Returns the number of messages that has arrived via inapp notification.
+ *
+ * @available Available in SDK version 4.3.0 or later
+ */
+- (void) didReceiveInAppNotificationWithMessageCount:(NSInteger)count;
 @end

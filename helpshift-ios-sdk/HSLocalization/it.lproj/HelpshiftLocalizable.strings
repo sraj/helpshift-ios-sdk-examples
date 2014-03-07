@@ -60,8 +60,8 @@
 "Screenshot could not be sent. Image is too large, try again with another image" = "Screenshot non è stato inviato. L'immagine è troppo grande, prova di nuovo con un'altra immagine";
 "Name invalid" = "Nome non valido";
 "Please provide a name." = "Si prega di inserire un nome.";
-"New message from Support" = "Nuovo messaggio da appoggio";
-"new messages from Support" = "nuovi messaggi da appoggio";
+"New message from Support" = "Nuovo messaggio da supporto";
+"new messages from Support" = "nuovi messaggi da supporto";
 "No FAQs found" = "Nessun FAQs trovato";
 "Conversation" = "Conversazione";
 "Name" = "Nome";
@@ -82,3 +82,4 @@
 "Your message has been received." = "Il tuo messaggio è stato ricevuto.";
 "Your message has been received. Thanks for contacting us!" = "Il tuo messaggio è stato ricevuto. Grazie per averci contattato!";
 "What else can we help you with?" = "Possiamo aiutarti con qualche altra cosa?";
+"Would you like to review the app?" = "Vorresti recensire la app?";

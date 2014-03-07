@@ -58,7 +58,7 @@
 		B48806D4171BEF5000C3A95E /* avatar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B48806D0171BEF5000C3A95E /* avatar@2x.png */; };
 		B48806D5171BEF5000C3A95E /* paper.png in Resources */ = {isa = PBXBuildFile; fileRef = B48806D1171BEF5000C3A95E /* paper.png */; };
 		B48806D6171BEF5000C3A95E /* paper_@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = B48806D2171BEF5000C3A95E /* paper_@2X.png */; };
-		B4CF4857189FAEA600DDC547 /* HelpshiftLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B4CF484B189FAEA600DDC547 /* HelpshiftLocalizable.strings */; };
+		B4DBF41E18C9E31E0014F989 /* HelpshiftLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B4DBF41118C9E31E0014F989 /* HelpshiftLocalizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -119,17 +119,18 @@
 		B48806D0171BEF5000C3A95E /* avatar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avatar@2x.png"; sourceTree = "<group>"; };
 		B48806D1171BEF5000C3A95E /* paper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paper.png; sourceTree = "<group>"; };
 		B48806D2171BEF5000C3A95E /* paper_@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "paper_@2X.png"; sourceTree = "<group>"; };
-		B4CF484C189FAEA600DDC547 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
-		B4CF484D189FAEA600DDC547 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
-		B4CF484E189FAEA600DDC547 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
-		B4CF484F189FAEA600DDC547 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
-		B4CF4850189FAEA600DDC547 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
-		B4CF4851189FAEA600DDC547 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
-		B4CF4852189FAEA600DDC547 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
-		B4CF4853189FAEA600DDC547 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
-		B4CF4854189FAEA600DDC547 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
-		B4CF4855189FAEA600DDC547 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
-		B4CF4856189FAEA600DDC547 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/HelpshiftLocalizable.strings"; sourceTree = "<group>"; };
+		B4DBF41218C9E31E0014F989 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		B4DBF41318C9E31E0014F989 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		B4DBF41418C9E31E0014F989 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		B4DBF41518C9E31E0014F989 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		B4DBF41618C9E31E0014F989 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		B4DBF41718C9E31E0014F989 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		B4DBF41818C9E31E0014F989 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		B4DBF41918C9E31E0014F989 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		B4DBF41A18C9E31E0014F989 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		B4DBF41B18C9E31E0014F989 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		B4DBF41C18C9E31E0014F989 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/HelpshiftLocalizable.strings; sourceTree = "<group>"; };
+		B4DBF41D18C9E31E0014F989 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/HelpshiftLocalizable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,7 +165,7 @@
 				B453D07017BA06DF00801784 /* Helpshift.h */,
 				B453D07117BA06DF00801784 /* HSResources */,
 				B453D08F17BA06DF00801784 /* HSThemes */,
-				B4CF484A189FAEA600DDC547 /* HSLocalization */,
+				B4DBF41018C9E31E0014F989 /* HSLocalization */,
 				B453D09217BA06DF00801784 /* libHelpshift.a */,
 			);
 			name = "helpshift-ios-sdk";
@@ -296,10 +297,10 @@
 			path = "../../Shared Resources";
 			sourceTree = "<group>";
 		};
-		B4CF484A189FAEA600DDC547 /* HSLocalization */ = {
+		B4DBF41018C9E31E0014F989 /* HSLocalization */ = {
 			isa = PBXGroup;
 			children = (
-				B4CF484B189FAEA600DDC547 /* HelpshiftLocalizable.strings */,
+				B4DBF41118C9E31E0014F989 /* HelpshiftLocalizable.strings */,
 			);
 			path = HSLocalization;
 			sourceTree = "<group>";
@@ -350,6 +351,7 @@
 				ja,
 				ko,
 				tr,
+				nl,
 			);
 			mainGroup = B48197B51716EFDC009B5DDB;
 			productRefGroup = B48197BF1716EFDC009B5DDB /* Products */;
@@ -399,7 +401,7 @@
 				B453D0A817BA06DF00801784 /* HSTutorialiPad@2x.png in Resources */,
 				B453D0A917BA06DF00801784 /* HelpshiftConfig.plist in Resources */,
 				B453D0AA17BA06DF00801784 /* HelpshiftConfigDark.plist in Resources */,
-				B4CF4857189FAEA600DDC547 /* HelpshiftLocalizable.strings in Resources */,
+				B4DBF41E18C9E31E0014F989 /* HelpshiftLocalizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,20 +445,21 @@
 			name = HSDViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
-		B4CF484B189FAEA600DDC547 /* HelpshiftLocalizable.strings */ = {
+		B4DBF41118C9E31E0014F989 /* HelpshiftLocalizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B4CF484C189FAEA600DDC547 /* de */,
-				B4CF484D189FAEA600DDC547 /* en */,
-				B4CF484E189FAEA600DDC547 /* es */,
-				B4CF484F189FAEA600DDC547 /* fr */,
-				B4CF4850189FAEA600DDC547 /* it */,
-				B4CF4851189FAEA600DDC547 /* ja */,
-				B4CF4852189FAEA600DDC547 /* ko */,
-				B4CF4853189FAEA600DDC547 /* pt */,
-				B4CF4854189FAEA600DDC547 /* ru */,
-				B4CF4855189FAEA600DDC547 /* tr */,
-				B4CF4856189FAEA600DDC547 /* zh-Hans */,
+				B4DBF41218C9E31E0014F989 /* de */,
+				B4DBF41318C9E31E0014F989 /* en */,
+				B4DBF41418C9E31E0014F989 /* es */,
+				B4DBF41518C9E31E0014F989 /* fr */,
+				B4DBF41618C9E31E0014F989 /* it */,
+				B4DBF41718C9E31E0014F989 /* ja */,
+				B4DBF41818C9E31E0014F989 /* ko */,
+				B4DBF41918C9E31E0014F989 /* nl */,
+				B4DBF41A18C9E31E0014F989 /* pt */,
+				B4DBF41B18C9E31E0014F989 /* ru */,
+				B4DBF41C18C9E31E0014F989 /* tr */,
+				B4DBF41D18C9E31E0014F989 /* zh-Hans */,
 			);
 			name = HelpshiftLocalizable.strings;
 			sourceTree = "<group>";
