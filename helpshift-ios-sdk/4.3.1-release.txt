@@ -1,5 +1,5 @@
   
-Helpshift SDK 4.3.0 Release Notes (for iOS)
+Helpshift SDK 4.3.1 Release Notes (for iOS)
 -----------------------------------------------
 
 Helpshift is an embedded support desk for native apps.
@@ -13,6 +13,8 @@ Documentation for Installation and Usage Instructions:
 http://developers.helpshift.com/
 
 New features:
+4.3.1 Release Date: March 12, 2014
+       * Critical migration bug fix that caused a conversation related crash
 4.3.0 Release Date: March 7, 2014
        * Added method pauseDisplayOfInAppNotification: to pause/resume display of in-app notifications
        * Added optional delegate method didReceiveInAppNotificationWithMessageCount: for in-app notifications

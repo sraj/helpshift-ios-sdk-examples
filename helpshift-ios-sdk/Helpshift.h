@@ -1,6 +1,6 @@
 /*
  *    Helpshift.h
- *    SDK version 4.3.0
+ *    SDK version 4.3.1
  *
  *    Get the documentation at http://www.helpshift.com/docs
  *
