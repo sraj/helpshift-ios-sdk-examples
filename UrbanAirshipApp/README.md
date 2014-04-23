@@ -1,30 +1,35 @@
-Readme for Integrating Urban Airship for Helpshift Notifications
-================================================================
+# UrbanAirshipApp
 
-1. Get a valid Urban Airship account. Get yours [here](https://go.urbanairship.com/accounts/register/)
+Demonstrates integrating Urban Airship for Helpshift notifications in your app
 
-2. Follow the steps described [here](https://docs.urbanairship.com/display/DOCS/Getting+Started%3A+iOS%3A+Push) to setup your application with Apple and enable
-   push notifications.
+1. Get an Urban Airship account. Get yours [here](https://go.urbanairship.com/accounts/register/).
 
-3. Open ***UrbanAirshipApp.xcodeproj*** in XCode, navigate to ***UA Notification*** and click on HSDAppDelegate.m
+1. Follow the steps described [here](https://docs.urbanairship.com/display/DOCS/Getting+Started%3A+iOS%3A+Push) to setup your application with Apple and enable push notifications.
 
-4. Initialize Helpshift library by calling the method
+1. Open **UrbanAirshipApp.xcodeproj** in Xcode
 
-   ```
-      [Helpshift installForApiKey:@"<YOUR_API_KEY>"  domainName:@"<YOUR_COMPANY>.helpshift.com" appID:@"<YOUR_APP_ID>"];
-   ```
-   inside ***application:didFinishLaunchingWithOptions:*** method (ideally at the top)
-   for more information [refer doc](http://developers.helpshift.com/ios/getting-started/#initializing)
+1. In project explorer, navigate to **UA Notification** and open `HSAppDelegate.m`
 
-5. Refer ***application:didRegisterForRemoteNotificationsWithDeviceToken:*** and ***application:didReceiveRemoteNotification:*** in HSDAppDelegate.m on integrating
-   Helpshift push notification service, for more information [refer doc](http://developers.helpshift.com/ios/notifications/#configure-urban-airship)
+1. In `application:didFinishLaunchingWithOptions:` method, initialize Helpshift with your unique `API_KEY`, `DOMAIN` and `APP_ID`:
 
-6. To setup Bundle Identifier & Code Signing,
+    To get the `API Key`, `Domain Name` and the `App ID`, navigate to `Settings`>`SDK (for Developers)` in your agent dashboard and scroll down to **"Initializing Helpshift"** section.
 
-	1. Click on ***UrbanAirshipApp*** Project, to change bundle Identifier
+    Select your App from the dropdown and copy the three tokens to be passed when initializing Helpshift.
 
-	2. Click on "Build Settings" and select valid APN enabled certificate in ***Code Signing***
+    ![](https://developers.helpshift.com/static/books/common/settings-integration.png)
 
+    **[Related documentation](http://developers.helpshift.com/ios/getting-started/#initializing)**
 
+1. To setup Bundle Identifier & Code Signing:
 
-![UA Notification screenshot](/Screenshot.png)		![UA Notification screenshot](/Screenshot2.png)
+    1. In Project Navigator, click on **UA Notification** Project, you should see project settings in the editor area.
+
+    2. Navigate to **Build Settings** tab and select valid APN-Enabled certificate in **Code Signing**
+
+1. See methods `application:didRegisterForRemoteNotificationsWithDeviceToken:` and `application:didReceiveRemoteNotification:` in `HSDAppDelegate.m` for handling Helpshift notifications via Urban Airship.
+
+    **[Related documentation](http://developers.helpshift.com/ios/notifications/#configure-urban-airship)**
+
+    ![UA Notification screenshot](Screenshot.png)
+
+    ![UA Notification screenshot](/Screenshot2.png)
