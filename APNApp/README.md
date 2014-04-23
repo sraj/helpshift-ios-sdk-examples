@@ -1,24 +1,29 @@
-Readme for Push Notification iOS App
-=====================================
+# APNApp
 
-1. Open ***APNApp.xcodeproj*** in XCode, navigate to ***Push Notification*** and click on HSDAppDelegate.m
+Demonstrates handling customer support notifications via Apple Push Notification Service
 
-2. Initialize Helpshift library by calling the method
+1. Open **APNApp.xcodeproj** in Xcode
 
-   ```
-        [Helpshift installForApiKey:@"<YOUR_API_KEY>"  domainName:@"<YOUR_COMPANY>.helpshift.com" appID:@"<YOUR_APP_ID>"];
-   ```
-   inside ***application:didFinishLaunchingWithOptions:*** method (ideally at the top)
-   for more information [refer doc](http://developers.helpshift.com/ios/getting-started/#initializing)
+1. In project explorer, navigate to **Push Notification** and open `HSDAppDelegate.m`
 
-3. To setup Bundle Identifier & Code Signing,
+1. In `application:didFinishLaunchingWithOptions:` method, initialize Helpshift with your unique `API_KEY`, `DOMAIN` and `APP_ID`:
 
-	1. Click on ***Push Notification*** Project, to change bundle Identifier
+    To get the `API Key`, `Domain Name` and the `App ID`, navigate to `Settings`>`SDK (for Developers)` in your agent dashboard and scroll down to **"Initializing Helpshift"** section.
 
-	2. Click on "Build Settings" and select valid APN enabled certificate in ***Code Signing***
+    Select your App from the dropdown and copy the three tokens to be passed when initializing Helpshift.
 
-4. Refer ***application:didFinishLaunchingWithOptions***, ***application:didRegisterForRemoteNotificationsWithDeviceToken:*** and ***application:didReceiveRemoteNotification:*** in HSDAppDelegate.m on integrating
-   Helpshift push notification service, for more information [refer doc](http://developers.helpshift.com/ios/notifications/#push-via-helpshift)
+    ![](https://developers.helpshift.com/static/books/common/settings-integration.png)
 
+    **[Related documentation](http://developers.helpshift.com/ios/getting-started/#initializing)**
 
-![Push Notification screenshot](/Screenshot.png)		![Push Notification screenshot](/Screenshot2.png)
+1. To setup Bundle Identifier & Code Signing:
+
+    1. In Project Navigator, click on **Push Notification** Project, you should see project settings in the editor area.
+
+    2. Navigate to **Build Settings** tab and select valid APN-Enabled certificate in **Code Signing**
+
+    ![Push Notification screenshot](Screenshot.png)
+
+    ![Push Notification screenshot](Screenshot2.png)
+
+    **[Related documentation](https://developers.helpshift.com/ios/notifications/#push-via-helpshift)**

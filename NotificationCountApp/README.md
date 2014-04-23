@@ -1,18 +1,23 @@
-Readme for Notification Count iOS App
-=====================================
+# NotificationCountApp
 
-1. Open ***NotificationCountApp.xcodeproj*** in XCode, navigate to ***Notification Count*** and click on HSDAppDelegate.m
+Demonstrates updating notification count when support agents reply to your app users.
 
-2. Initialize Helpshift library by calling the method
+1. Open **NotificationCountApp.xcodeproj** in Xcode
 
-   ```
-        [Helpshift installForApiKey:@"<YOUR_API_KEY>"  domainName:@"<YOUR_COMPANY>.helpshift.com" appID:@"<YOUR_APP_ID>"];
-   ```
-   inside ***application:didFinishLaunchingWithOptions:*** method (ideally at the top)
-   for more information [refer doc](http://developers.helpshift.com/ios/getting-started/#initializing)
+1. In project explorer, navigate to **Notification Count** and open `HSDAppDelegate.m`
 
-3. Refer ***notificationCountAsyncReceived:*** delegate method in HSDViewController.m to get notification counts asynchronously,
-   for more information [refer doc](http://developers.helpshift.com/ios/notifications/#notification-badges)
+1. In `application:didFinishLaunchingWithOptions:` method, initialize Helpshift with your unique `API_KEY`, `DOMAIN` and `APP_ID`:
 
+    To get the `API Key`, `Domain Name` and the `App ID`, navigate to `Settings`>`SDK (for Developers)` in your agent dashboard and scroll down to **"Initializing Helpshift"** section.
 
-![Notification Count screenshot](/Screenshot.png)
+    Select your App from the dropdown and copy the three tokens to be passed when initializing Helpshift.
+
+    ![](https://developers.helpshift.com/static/books/common/settings-integration.png)
+
+    **[Related documentation](http://developers.helpshift.com/ios/getting-started/#initializing)**
+
+1. See `notificationCountAsyncReceived:` delegate method in `HSDViewController.m`. This example gets notification count asynchronously.
+
+    **[Related documentation](http://developers.helpshift.com/ios/notifications/#notification-badges)**
+
+    ![Notification Count screenshot](Screenshot.png)
