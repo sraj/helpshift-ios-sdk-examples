@@ -8,12 +8,12 @@ This repository contains a collection example projects for Helpshift iOS SDK v4.
 
 ## Projects
 
-Each one of the sub-directories ending with `App` in this respository is a genuine Xcode project that demonstrates SDK integration and features.
+Each one of the sub-directories ending with `App` in this repository is a genuine Xcode project that demonstrates SDK integration and features.
 
-* **HelpshiftSupportApp**: demonstrates all customer support APIs
-* **APNApp**: handling customer support notifications via Apple Push Notification Service
-* **NotificationCountApp**: updating notification count when support agents reply to your app users
-* **UrbanAirshipApp**: integrating Urban Airship for Helpshift notifications in your app
+* **[HelpshiftSupportApp](HelpshiftSupportApp)**: demonstrates different support screens in your app
+* **[APNApp](APNApp)**: handling customer support notifications via Apple Push Notification Service
+* **[NotificationCountApp](NotificationCountApp)**: updating notification count when support agents reply to your app users
+* **[UrbanAirshipApp](UrbanAirshipApp)**: integrating Urban Airship for Helpshift notifications in your app
 
 **Note:** `/helpshift-ios-sdk` and `/Shared Resources` are required for example projects to function correctly.
 
@@ -25,12 +25,12 @@ Each one of the sub-directories ending with `App` in this respository is a genui
 
 ## Samples for Older Releases
 
-* [Release v4.3.0](https://github.com/sraj/helpshift-ios-sdk-examples/tree/release/4.3.0)
-* [Release v4.2.1](https://github.com/sraj/helpshift-ios-sdk-examples/tree/release/4.2.1)
-* [Release v4.2.0](https://github.com/sraj/helpshift-ios-sdk-examples/tree/release/4.2.0)
-* [Release v4.1.0](https://github.com/sraj/helpshift-ios-sdk-examples/tree/release/4.1.0)
-* [Release v4.0.0](https://github.com/sraj/helpshift-ios-sdk-examples/tree/release/4.0.0)
-* [Release v3.2.1](https://github.com/sraj/helpshift-ios-sdk-examples/tree/release/3.2.1)
+* [Release v4.3.0](../../tree/release/4.3.0)
+* [Release v4.2.1](../../tree/release/4.2.1)
+* [Release v4.2.0](../../tree/release/4.2.0)
+* [Release v4.1.0](../../tree/release/4.1.0)
+* [Release v4.0.0](../../tree/release/4.0.0)
+* [Release v3.2.1](../../tree/release/3.2.1)
 
 ## License
 
@@ -56,9 +56,9 @@ limitations under the License.
 
 | Package       | License                               | Copyright / Creator
 -----------------|---------------------------------------|---------------------
-| iOS Urban Airship Library | [Apache](UrbanAirshipApp/Airship/LICENSE) | (C) 2009-2012 Urban Airship Inc.
+| Urban Airship iOS Library | [Simplified BSD](UrbanAirshipApp/Airship/LICENSE) | (C) 2009-2012 Urban Airship Inc.
 
-* See third-party packages used by `iOS Urbarn Airship Library` [here](UrbanAirshipApp/Airship#third-party-packages)
+* See third-party packages used by `iOS Urban Airship Library` [here](UrbanAirshipApp/Airship#third-party-packages)
 
 
 ### Shared Resources
