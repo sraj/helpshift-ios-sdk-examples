@@ -12,8 +12,6 @@ Demonstrates handling customer support notifications via Apple Push Notification
 
     Select your App from the dropdown and copy the three tokens to be passed when initializing Helpshift.
 
-    ![](https://developers.helpshift.com/static/books/common/settings-integration.png)
-
     **[Related documentation](http://developers.helpshift.com/ios/getting-started/#initializing)**
 
 1. To setup Bundle Identifier & Code Signing:
